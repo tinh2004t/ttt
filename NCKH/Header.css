@@ -1940,6 +1940,149 @@ body {
     border-radius: 20px;
     font-weight: bold;
   }
-  
+
+  .ticket-carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 1050px;   
+}
+
+.ticket-grid {
+    display: flex;
+    gap: 50px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 12px;
+    scrollbar-width: none;
+}
+
+.ticket-grid::-webkit-scrollbar {
+    display: none;
+}
+
+.arrow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    z-index: 10;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.arrow-button svg {
+    width: 16px;
+    height: 16px;
+    stroke: #000;
+}
+
+.arrow-left {
+    left: 0;
+    transform: translateX(-60%) translateY(-125%);
+}
+
+.arrow-right {
+    right: 0;
+    transform: translateX(60%) translateY(-125%);
+}
+
+.hotel-carousel-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.hotel-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.hotel-grid::-webkit-scrollbar {
+    display: none;
+}
+
+.arrow-button {
+    position: absolute;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.arrow-button:hover {
+    background-color: #f7fafc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.arrow-button svg {
+    width: 16px;
+    height: 17px;
+    color: #4a5568;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+
+.hotel-location-item {
+    min-width: 200px;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.hotel-location-item:hover {
+    transform: translateY(-5px);
+}
+
+.hotel-card {
+    min-width: 280px;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+.hotel-card:hover {
+    transform: translateY(-5px);
+}
+
   
   

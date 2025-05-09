@@ -150,8 +150,18 @@
                                         style="color: #ff3366;">(4)</span></h2>
                             </div>
 
-                            <div class="lazyload-hotel-grid">
-                                <div class="ticket-grid">
+                            <div class="ticket-carousel-wrapper">
+                                <div class="arrow-left arrow-button flex-align" style="display: flex;"
+                                    onclick="scrollTickets(-1)">
+                                    <svg width="16" height="17" fill="none" class="svgFillAll jss214"
+                                        style="transform: rotate(180deg);">
+                                        <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5"
+                                            stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
+
+                                <div class="ticket-grid" id="ticketGrid">
                                     <div style="width: 490px;">
                                         <div style="transform: scale(0.7); transform-origin: top left;">
                                             <svg width="700" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -171,9 +181,11 @@
                                                     31/12</text>
                                                 <text x="40" y="110" font-size="18" fill="#666">Nhập mã khi thanh
                                                     toán</text>
-                                                <text x="40" y="135" font-size="18" fill="#ff4c84">Điều kiện & thể lệ
-                                                    chương
-                                                    trình</text>
+                                                <text x="40" y="135" font-size="18" fill="#ff4c84"
+                                                    style="cursor: pointer;" onclick="openPopup()">Điều kiện & thể lệ
+                                                    chương trình</text>
+
+
                                                 <text x="530" y="80" font-size="20" fill="#333">Nhập mã</text>
                                                 <text x="530" y="110" font-size="26" font-weight="bold"
                                                     fill="#ff3366">CHOTNAM24</text>
@@ -207,9 +219,11 @@
                                                     31/12</text>
                                                 <text x="40" y="110" font-size="18" fill="#666">Nhập mã khi thanh
                                                     toán</text>
-                                                <text x="40" y="135" font-size="18" fill="#ff4c84">Điều kiện & thể lệ
-                                                    chương
-                                                    trình</text>
+                                                <text x="40" y="135" font-size="18" fill="#ff4c84"
+                                                    style="cursor: pointer;" onclick="openPopup()">Điều kiện & thể lệ
+                                                    chương trình</text>
+
+
                                                 <text x="530" y="80" font-size="20" fill="#333">Nhập mã</text>
                                                 <text x="530" y="110" font-size="26" font-weight="bold"
                                                     fill="#ff3366">CHOTNAM24</text>
@@ -242,9 +256,11 @@
                                                     31/12</text>
                                                 <text x="40" y="110" font-size="18" fill="#666">Nhập mã khi thanh
                                                     toán</text>
-                                                <text x="40" y="135" font-size="18" fill="#ff4c84">Điều kiện & thể lệ
-                                                    chương
-                                                    trình</text>
+                                                <text x="40" y="135" font-size="18" fill="#ff4c84"
+                                                    style="cursor: pointer;" onclick="openPopup()">Điều kiện & thể lệ
+                                                    chương trình</text>
+
+
                                                 <text x="530" y="80" font-size="20" fill="#333">Nhập mã</text>
                                                 <text x="530" y="110" font-size="26" font-weight="bold"
                                                     fill="#ff3366">CHOTNAM24</text>
@@ -277,9 +293,10 @@
                                                     31/12</text>
                                                 <text x="40" y="110" font-size="18" fill="#666">Nhập mã khi thanh
                                                     toán</text>
-                                                <text x="40" y="135" font-size="18" fill="#ff4c84">Điều kiện & thể lệ
-                                                    chương
-                                                    trình</text>
+                                                <text x="40" y="135" font-size="18" fill="#ff4c84"
+                                                    style="cursor: pointer;" onclick="openPopup()">Điều kiện & thể lệ
+                                                    chương trình</text>
+
                                                 <text x="530" y="80" font-size="20" fill="#333">Nhập mã</text>
                                                 <text x="530" y="110" font-size="26" font-weight="bold"
                                                     fill="#ff3366">CHOTNAM24</text>
@@ -294,6 +311,13 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="arrow-right arrow-button flex-align" onclick="scrollTickets(1)">
+                                    <svg width="16" height="17" fill="none" class="svgFillAll jss214">
+                                        <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5"
+                                            stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -303,51 +327,89 @@
                     <div class="wrapper-lazyload-hotel title-Community14-body" style="background-color: #fff;">
                         <div class="lazyload-hotel flex-column">
                             <div class="lazyload-hotel-title flex-column">
-                                <h2 class="title-Community24" style="margin-bottom: 8px;">Khách sạn theo địa điểm
+                                <h2 class="title-Community24" style="margin-bottom: 8px;">Khách sạn theo địa điểm</h2>
                             </div>
 
+                            <div class="hotel-carousel-wrapper">
+                                <div class="arrow-left arrow-button flex-align" style="display: flex;"
+                                    onclick="scrollHotels('location-grid', -1)">
+                                    <svg width="16" height="17" fill="none" class="svgFillAll jss214"
+                                        style="transform: rotate(180deg);">
+                                        <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5"
+                                            stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
 
-                            <div class="hotel-location-wrapper">
-                                <a href="#" class="hotel-location-item">
-                                    <img src="image/hochiminh.jpg" alt="Hồ Chí Minh">
-                                    <div class="hotel-location-name">Hồ Chí Minh</div>
-                                    <div class="hotel-location-count">10 khách sạn</div>
-                                </a>
+                                <div class="hotel-grid" id="location-grid">
+                                    <a href="#" class="hotel-location-item">
+                                        <img src="image/hochiminh.jpg" alt="Hồ Chí Minh">
+                                        <div class="hotel-location-name">Hồ Chí Minh</div>
+                                        <div class="hotel-location-count">10 khách sạn</div>
+                                    </a>
 
-                                <a href="#" class="hotel-location-item">
-                                    <img src="image/hochiminh.jpg" alt="Hà Nội">
-                                    <div class="hotel-location-name">Hà Nội</div>
-                                    <div class="hotel-location-count">15 khách sạn</div>
-                                </a>
+                                    <a href="#" class="hotel-location-item">
+                                        <img src="image/hochiminh.jpg" alt="Hồ Chí Minh">
+                                        <div class="hotel-location-name">Hồ Chí Minh</div>
+                                        <div class="hotel-location-count">10 khách sạn</div>
+                                    </a>
 
-                                <a href="#" class="hotel-location-item">
-                                    <img src="image/hochiminh.jpg" alt="Hà Nội">
-                                    <div class="hotel-location-name">Hà Nội</div>
-                                    <div class="hotel-location-count">15 khách sạn</div>
-                                </a>
-                                <a href="#" class="hotel-location-item">
-                                    <img src="image/hochiminh.jpg" alt="Hà Nội">
-                                    <div class="hotel-location-name">Hà Nội</div>
-                                    <div class="hotel-location-count">15 khách sạn</div>
-                                </a>
-                                <a href="#" class="hotel-location-item">
-                                    <img src="image/hochiminh.jpg" alt="Hà Nội">
-                                    <div class="hotel-location-name">Hà Nội</div>
-                                    <div class="hotel-location-count">15 khách sạn</div>
-                                </a>
-                                <a href="#" class="hotel-location-item">
-                                    <img src="image/hochiminh.jpg" alt="Hà Nội">
-                                    <div class="hotel-location-name">Hà Nội</div>
-                                    <div class="hotel-location-count">15 khách sạn</div>
-                                </a>
+                                    <a href="#" class="hotel-location-item">
+                                        <img src="image/hochiminh.jpg" alt="Hồ Chí Minh">
+                                        <div class="hotel-location-name">Hồ Chí Minh</div>
+                                        <div class="hotel-location-count">10 khách sạn</div>
+                                    </a>
 
+                                    <a href="#" class="hotel-location-item">
+                                        <img src="image/hochiminh.jpg" alt="Hồ Chí Minh">
+                                        <div class="hotel-location-name">Hồ Chí Minh</div>
+                                        <div class="hotel-location-count">10 khách sạn</div>
+                                    </a>
+
+                                    <a href="#" class="hotel-location-item">
+                                        <img src="image/hochiminh.jpg" alt="Hà Nội">
+                                        <div class="hotel-location-name">Hà Nội</div>
+                                        <div class="hotel-location-count">15 khách sạn</div>
+                                    </a>
+
+                                    <a href="#" class="hotel-location-item">
+                                        <img src="image/hochiminh.jpg" alt="Đà Nẵng">
+                                        <div class="hotel-location-name">Đà Nẵng</div>
+                                        <div class="hotel-location-count">12 khách sạn</div>
+                                    </a>
+
+                                    <a href="#" class="hotel-location-item">
+                                        <img src="image/hochiminh.jpg" alt="Nha Trang">
+                                        <div class="hotel-location-name">Nha Trang</div>
+                                        <div class="hotel-location-count">8 khách sạn</div>
+                                    </a>
+
+                                    <a href="#" class="hotel-location-item">
+                                        <img src="image/hochiminh.jpg" alt="Đà Lạt">
+                                        <div class="hotel-location-name">Đà Lạt</div>
+                                        <div class="hotel-location-count">9 khách sạn</div>
+                                    </a>
+
+                                    <a href="#" class="hotel-location-item">
+                                        <img src="image/hochiminh.jpg" alt="Phú Quốc">
+                                        <div class="hotel-location-name">Phú Quốc</div>
+                                        <div class="hotel-location-count">7 khách sạn</div>
+                                    </a>
+                                </div>
+
+                                <div class="arrow-right arrow-button flex-align"
+                                    onclick="scrollHotels('location-grid', 1)">
+                                    <svg width="16" height="17" fill="none" class="svgFillAll jss214">
+                                        <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5"
+                                            stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>
+
 
                 <div class="hotel-wrapper">
                     <div class="wrapper-lazyload-hotel title-Community14-body" style="background-color: #fff;">
@@ -357,72 +419,142 @@
                                     chọn</h2>
                                 <span style="color: rgb(74, 85, 104);">Các khách sạn độc quyền trên voyage</span>
                             </div>
-                            <div class="hotel-list-wrapper">
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
+
+                            <div class="hotel-carousel-wrapper">
+                                <div class="arrow-left arrow-button flex-align" style="display: flex;"
+                                    onclick="scrollHotels('voyage-choice-grid', -1)">
+                                    <svg width="16" height="17" fill="none" class="svgFillAll jss214"
+                                        style="transform: rotate(180deg);">
+                                        <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5"
+                                            stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
+
+                                <div class="hotel-grid" id="voyage-choice-grid">
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-5%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                        <div class="hotel-content">
+                                            <h3>Khách Sạn Lotte Hà Nội</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Quận Ba Đình</p>
+                                            <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">3.375.590 ₫</span>
+                                                <span class="discounted">2.813.217 ₫</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
 
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-5%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                            alt="Khách Sạn Metropole Hà Nội" />
+                                        <div class="hotel-content">
+                                            <h3>Khách Sạn Metropole Hà Nội</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Quận Hoàn Kiếm</p>
+                                            <p class="rating">Tuyệt Vời (210 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">4.150.000 ₫</span>
+                                                <span class="discounted">3.942.500 ₫</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
 
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-5%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                            alt="Khách Sạn Metropole Hà Nội" />
+                                        <div class="hotel-content">
+                                            <h3>Khách Sạn Metropole Hà Nội</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Quận Hoàn Kiếm</p>
+                                            <p class="rating">Tuyệt Vời (210 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">4.150.000 ₫</span>
+                                                <span class="discounted">3.942.500 ₫</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
+                                    </a>
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-5%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                            alt="Khách Sạn Metropole Hà Nội" />
+                                        <div class="hotel-content">
+                                            <h3>Khách Sạn Metropole Hà Nội</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Quận Hoàn Kiếm</p>
+                                            <p class="rating">Tuyệt Vời (210 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">4.150.000 ₫</span>
+                                                <span class="discounted">3.942.500 ₫</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-5%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                            alt="Khách Sạn Metropole Hà Nội" />
+                                        <div class="hotel-content">
+                                            <h3>Khách Sạn Metropole Hà Nội</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Quận Hoàn Kiếm</p>
+                                            <p class="rating">Tuyệt Vời (210 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">4.150.000 ₫</span>
+                                                <span class="discounted">3.942.500 ₫</span>
+                                            </div>
+                                        </div>
+                                    </a>
 
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-10%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                            alt="Khách Sạn Hilton Hà Nội" />
+                                        <div class="hotel-content">
+                                            <h3>Khách Sạn Hilton Hà Nội</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Quận Đống Đa</p>
+                                            <p class="rating">Tuyệt Vời (165 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">3.800.000 ₫</span>
+                                                <span class="discounted">3.420.000 ₫</span>
+                                            </div>
+                                        </div>
+                                    </a>
 
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-8%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                            alt="Khách Sạn JW Marriott Hà Nội" />
+                                        <div class="hotel-content">
+                                            <h3>Khách Sạn JW Marriott Hà Nội</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Quận Nam Từ Liêm</p>
+                                            <p class="rating">Tuyệt Vời (192 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">4.250.000 ₫</span>
+                                                <span class="discounted">3.910.000 ₫</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="arrow-right arrow-button flex-align"
+                                    onclick="scrollHotels('voyage-choice-grid', 1)">
+                                    <svg width="16" height="17" fill="none" class="svgFillAll jss214">
+                                        <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5"
+                                            stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
 
                 <div class="hotel-wrapper">
                     <div class="wrapper-lazyload-hotel title-Community14-body" style="background-color: #fff;">
@@ -432,145 +564,128 @@
                                 <span style="color: rgb(74, 85, 104);">Các khách sạn được tìm kiếm & đặt nhiều do Voyage
                                     đề xuất</span>
                             </div>
-                            <div class="hotel-list-wrapper">
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
+
+                            <div class="hotel-carousel-wrapper">
+                                <div class="arrow-left arrow-button flex-align" style="display: flex;"
+                                    onclick="scrollHotels('trending-grid', -1)">
+                                    <svg width="16" height="17" fill="none" class="svgFillAll jss214"
+                                        style="transform: rotate(180deg);">
+                                        <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5"
+                                            stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
+
+                                <div class="hotel-grid" id="trending-grid">
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-5%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                        <div class="hotel-content">
+                                            <h3>Khách Sạn Lotte Hà Nội</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Quận Ba Đình</p>
+                                            <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">3.375.590 ₫</span>
+                                                <span class="discounted">2.813.217 ₫</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
 
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-8%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Rex Sài Gòn" />
+                                        <div class="hotel-content">
+                                            <h3>Khách Sạn Rex Sài Gòn</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Quận 1, TP.HCM</p>
+                                            <p class="rating">Tuyệt Vời (215 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">2.950.000 ₫</span>
+                                                <span class="discounted">2.714.000 ₫</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
 
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-10%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                            alt="Vinpearl Resort Nha Trang" />
+                                        <div class="hotel-content">
+                                            <h3>Vinpearl Resort Nha Trang</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Nha Trang, Khánh Hòa</p>
+                                            <p class="rating">Tuyệt Vời (198 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">3.800.000 ₫</span>
+                                                <span class="discounted">3.420.000 ₫</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
 
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-12%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Furama Resort Đà Nẵng" />
+                                        <div class="hotel-content">
+                                            <h3>Furama Resort Đà Nẵng</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Ngũ Hành Sơn, Đà Nẵng</p>
+                                            <p class="rating">Tuyệt Vời (176 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">4.100.000 ₫</span>
+                                                <span class="discounted">3.608.000 ₫</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
 
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-7%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                            alt="Dalat Palace Heritage Hotel" />
+                                        <div class="hotel-content">
+                                            <h3>Dalat Palace Heritage Hotel</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Đà Lạt, Lâm Đồng</p>
+                                            <p class="rating">Tuyệt Vời (162 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">2.850.000 ₫</span>
+                                                <span class="discounted">2.650.500 ₫</span>
+                                            </div>
+                                        </div>
+                                    </a>
 
+                                    <a href="#" class="hotel-card">
+                                        <div class="discount-badge">-15%</div>
+                                        <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                            alt="InterContinental Phú Quốc" />
+                                        <div class="hotel-content">
+                                            <h3>InterContinental Phú Quốc</h3>
+                                            <div class="stars">★★★★★</div>
+                                            <p>Phú Quốc, Kiên Giang</p>
+                                            <p class="rating">Tuyệt Vời (205 đánh giá)</p>
+                                            <div class="price">
+                                                <span class="original">5.200.000 ₫</span>
+                                                <span class="discounted">4.420.000 ₫</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="arrow-right arrow-button flex-align"
+                                    onclick="scrollHotels('trending-grid', 1)">
+                                    <svg width="16" height="17" fill="none" class="svgFillAll jss214">
+                                        <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5"
+                                            stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="hotel-wrapper">
-                    <div class="wrapper-lazyload-hotel title-Community14-body" style="background-color: #fff;">
-                        <div class="lazyload-hotel flex-column">
-                            <div class="lazyload-hotel-title flex-column">
-                                <h2 class="title-Community24" style="margin-bottom: 8px;">Xem gần đây</h2>
-                            </div>
-                            <div class="hotel-list-wrapper">
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <a href="#" class="hotel-card">
-                                    <div class="discount-badge">-5%</div>
-                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
-                                    <div class="hotel-content">
-                                        <h3>Khách Sạn Lotte Hà Nội</h3>
-                                        <div class="stars">★★★★★</div>
-                                        <p>Quận Ba Đình</p>
-                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
-                                        <div class="price">
-                                            <span class="original">3.375.590 ₫</span>
-                                            <span class="discounted">2.813.217 ₫</span>
-                                        </div>
-                                    </div>
-                                </a>
 
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
                 <div class="chat-widget-tickets" style="position: fixed; top: auto; right: 0; bottom: 0;z-index: 1000;">
@@ -633,28 +748,32 @@
             </div>
 
             <div id="popup-overlay" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; z-index: 9999;">
-  <div id="popup-box" style="background: #fff; padding: 20px 30px; border-radius: 12px; width: 600px; max-width: 90%; position: relative;">
-    <h3 style="font-size: 20px; font-weight: bold;">Điều kiện & thể lệ chương trình</h3>
-    <button onclick="closePopup()" style="position: absolute; top: 10px; right: 15px; font-size: 20px; background: none; border: none; cursor: pointer;">×</button>
-    <div style="margin-top: 10px; font-size: 16px;">
-      <ul style="padding-left: 20px; line-height: 1.6;">
-        <li>Giảm ngay 8% cho đơn phòng khách sạn (mức giảm áp dụng cho giá trị đơn chưa bao gồm thuế phí).</li>
-        <li>Ưu đãi được áp dụng cho một số hạng phòng của khách sạn.</li>
-        <li>Ưu đãi không được áp dụng cùng các chương trình khuyến mãi khác.</li>
-        <li>Mỗi khách hàng chỉ được hưởng ưu đãi 01 lần/chương trình. Chỉ áp dụng cho khách hàng cá nhân.</li>
-        <li>Nếu phát hiện đặt phòng có dấu hiệu lạm dụng, trục lợi ưu đãi, Mytour có quyền từ chối áp dụng.</li>
-        <li>Áp dụng theo chính sách khách sạn.</li>
-        <li>Voyage có quyền thay đổi điều khoản và thể lệ mà không cần thông báo trước. Vui lòng truy cập Mytour.vn để cập nhật chi tiết.</li>
-        <li>Mọi quyết định của Voyage là kết quả cuối cùng.</li>
-        <li><b>***Mọi thắc mắc vui lòng liên hệ 1900 1000.</b></li>
-      </ul>
-    </div>
-    <div style="margin-top: 20px;">
-      <label><input type="checkbox" id="dont-show-again"> Không hiển thị nữa</label>
-    </div>
-  </div>
-</div>
+    background-color: rgba(0,0,0,0.5); display: none; justify-content: center; align-items: center; z-index: 9999;">
+                <div id="popup-box"
+                    style="background: #fff; padding: 20px 30px; border-radius: 12px; width: 600px; max-width: 90%; position: relative;">
+                    <h3 style="font-size: 20px; font-weight: bold;">Điều kiện & thể lệ chương trình</h3>
+                    <button onclick="closePopup()"
+                        style="position: absolute; top: 10px; right: 15px; font-size: 20px; background: none; border: none; cursor: pointer;">×</button>
+                    <div style="margin-top: 10px; font-size: 16px;">
+                        <ul style="padding-left: 20px; line-height: 1.6;">
+                            <li>Giảm ngay 8% cho đơn phòng khách sạn (mức giảm áp dụng cho giá trị đơn chưa bao gồm thuế
+                                phí).</li>
+                            <li>Ưu đãi được áp dụng cho một số hạng phòng của khách sạn.</li>
+                            <li>Ưu đãi không được áp dụng cùng các chương trình khuyến mãi khác.</li>
+                            <li>Mỗi khách hàng chỉ được hưởng ưu đãi 01 lần/chương trình. Chỉ áp dụng cho khách hàng cá
+                                nhân.</li>
+                            <li>Nếu phát hiện đặt phòng có dấu hiệu lạm dụng, trục lợi ưu đãi, Mytour có quyền từ chối
+                                áp dụng.</li>
+                            <li>Áp dụng theo chính sách khách sạn.</li>
+                            <li>Voyage có quyền thay đổi điều khoản và thể lệ mà không cần thông báo trước. Vui lòng
+                                truy cập Mytour.vn để cập nhật chi tiết.</li>
+                            <li>Mọi quyết định của Voyage là kết quả cuối cùng.</li>
+                            <li><b>***Mọi thắc mắc vui lòng liên hệ 1900 1000.</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
 
 
 
@@ -770,6 +889,8 @@
     </div>
 
 
+
+
     <script>
         window.addEventListener("load", () => {
             localStorage.clear();
@@ -781,24 +902,41 @@
     <script src="./calendar.js"></script>
 
     <script>
-        const hideUntil = localStorage.getItem('hidePopupUntil');
-        const now = new Date();
-      
-        if (!hideUntil || new Date(hideUntil) < now) {
-          document.getElementById('popup-overlay').style.display = 'flex';
+        function openPopup() {
+            document.getElementById("popup-overlay").style.display = "flex";
         }
-      
+
         function closePopup() {
-          const dontShow = document.getElementById('dont-show-again').checked;
-          if (dontShow) {
-            const hideUntil = new Date();
-            hideUntil.setHours(hideUntil.getHours() + 1);
-            localStorage.setItem('hidePopupUntil', hideUntil.toISOString());
-          }
-          document.getElementById('popup-overlay').style.display = 'none';
+            document.getElementById("popup-overlay").style.display = "none";
         }
-      </script>
-      
+    </script>
+
+    <script>
+        function scrollTickets(direction) {
+            const grid = document.getElementById("ticketGrid");
+            const scrollAmount = 540;
+            grid.scrollBy({
+                left: direction * scrollAmount,
+                behavior: "smooth"
+            });
+        }
+        function scrollHotels(gridId, direction) {
+            const grid = document.getElementById(gridId);
+            const scrollAmount = 300;
+            grid.scrollBy({
+                left: direction * scrollAmount,
+                behavior: "smooth"
+            });
+        }
+
+    </script>
+
+
+
+
+
+
+
 </body>
 
 </html>
