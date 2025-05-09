@@ -1,0 +1,10 @@
+  <div class="content-room vnt1022 flex-align vn1023"
+                                                    style="border-bottom:1px solid rgb(226, 232, 240); background-color:inherit; justify-content: space-between;">
+                                                    <span>
+                                                        Đi theo gia đình
+                                                    </span>
+                                                    <svg width="8" height="14" fill="none">
+                                                        <path d="M1 1l6 6-6 6" stroke="#718096" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </div>

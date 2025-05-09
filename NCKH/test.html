@@ -1,0 +1,2241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage-Nền tảng du lịch Việt Nam</title>
+    <link rel="stylesheet" href="./Header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Community.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="wrrapper-header-content">
+            <div class=" prominent wrrapper-header ">
+                <div class="top-header flex-align">
+                    <div class="top-header-left flex-align">
+                        <div class="top-left-logo flex flex-column">
+                            <a href="/" class="link-logo">
+                                <img src="./image/ic_logo_mytour.svg" alt="" class="image-logo_top_left">
+                            </a>
+                            <div class="top-left-title">
+                                Yên tâm vi vu một vòng Việt Nam
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-header-right flex-align">
+                        <div class="wrrapper-tour-world flex-align">
+                            <div class="tour-world flex-align">
+                                <img src="./image/icon_lang_vi.png" class="logo-world">
+                                <span class="title-world" style="font-size: 18px;">VI| VND</span>
+                            </div>
+                        </div>
+                        <div class="wrrapper-help-bell flex-align">
+                            <div class="help-bell">
+                                <svg width="20px" height="20px" style="color: rgb(26, 32, 44);"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416l384 0c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8l0-18.8c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z" />
+                                </svg>
+                            </div>
+                            <span class="subnav-bell number-bell subnav-bell-color flex-align">0</span>
+                        </div>
+                        <div class="wrrapper-buttons-user">
+                            <div class="buttons-user flex-align">
+                                <div class="button-user flex-align">
+                                    <button class="btn-login color-btn">Đăng nhập</button>
+                                    <button class="btn-register color-btn">Đăng ký</button>
+                                </div>
+                            </div>
+                        </div>
+                        <svg width="24px" height="24px" style="margin-left: 16px;" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512" class="bars-svg">
+                            <path
+                                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                        </svg>
+
+                    </div>
+
+
+
+                </div>
+                <div class="bottom-header flex-align">
+                    <a href="" class="bottom-header-links flex-align color-links">Khách sạn
+                        <!-- <div class="border-line-bold">
+                            <div class="line-bold"></div>
+                        </div> -->
+                    </a>
+                    <a href="" class="bottom-header-links flex-align color-links">Vé máy bay</a>
+                    <a href="" class="bottom-header-links flex-align color-links">Biệt Thự, Homestay</a>
+                    <a href="" class="bottom-header-links flex-align color-links">Khách sạn tiết kiệm</a>
+                </div>
+
+            </div>
+            <div class="wrrapper-content">
+                <div class="wrrapper-content-image">
+                    <img src="./image/header_bg_img_mytour.jpeg" alt="" class="content-iamge">
+                </div>
+                <div class="wrrapper-navigations-content flex-center">
+                    <div class="navigations-content">
+                        <div class="navigation-ct">
+                            <div class="navigation">
+                                <div class="place-nav flex-align flex-column">
+                                    <div class="place-nav-hedaer flex-align">
+                                        <div class="place-nav-title flex-align vnt353 color-3366 "
+                                            style="min-width: 130px;">
+                                            <span class="contrainer-place">
+                                                <svg width="20" height="20" fill="none">
+                                                    <path
+                                                        d="M2.5 4.75h11.25a.375.375 0 00.351-.507l-.943-2.513A1.131 1.131 0 0012.105 1h-7.96a1.131 1.131 0 00-1.05.73l-.946 2.513a.375.375 0 00.351.507zM18.25 17.5h-1.125a.188.188 0 01-.188-.188v-.357a.184.184 0 01.114-.167 1.681 1.681 0 001.012-1.538 50.433 50.433 0 00-1.328-5.355.391.391 0 00-.72 0 50.433 50.433 0 00-1.328 5.355 1.682 1.682 0 001.013 1.538.185.185 0 01.113.168v.357a.187.187 0 01-.187.187h-2.438a.188.188 0 01-.188-.188V5.688a.188.188 0 00-.188-.187H3.438a.187.187 0 00-.188.188v11.625a.188.188 0 01-.188.187H1.75a.75.75 0 100 1.5h16.5a.75.75 0 100-1.5zM5.125 7.562H7a.563.563 0 110 1.125H5.125a.563.563 0 110-1.124zM4.562 11.5a.562.562 0 01.563-.563H7a.563.563 0 010 1.126H5.125a.563.563 0 01-.563-.563zm4.688 5.813a.188.188 0 01-.188.187H7.188A.188.188 0 017 17.312v-1.687a1.125 1.125 0 012.25 0v1.688zm1.875-5.25H9.25a.562.562 0 010-1.126h1.875a.562.562 0 110 1.126zm0-3.376H9.25a.562.562 0 110-1.124h1.875a.562.562 0 110 1.125z"
+                                                        fill="#F36"></path>
+                                                </svg>
+                                            </span>
+                                            <h3>Khách sạn</h3>
+
+                                        </div>
+                                        <div class="place-nav-title flex-align vnt354" style="min-width: 130px;">
+                                            <span class="contrainer-place">
+                                                <svg width="20" height="20" fill="none">
+                                                    <path
+                                                        d="M5.073 5.269l3.25 1.345a.417.417 0 00.326 0l3.46-1.506a.209.209 0 000-.383L7.703 2.904a.838.838 0 00-.639 0l-1.99.826a.833.833 0 000 1.539z"
+                                                        fill="#1A202C"></path>
+                                                    <path
+                                                        d="M19.656 5.043a2.083 2.083 0 00-2.722-1.127h-.006L5.895 8.718a.417.417 0 01-.352-.01l-1.98-.99a.843.843 0 00-.701-.02l-2.172.93a.833.833 0 00-.262 1.357l3.12 3.12a.833.833 0 00.899.185l4.68-1.874a.207.207 0 01.273.266l-1.63 4.35a.833.833 0 001.153 1.038l2.258-1.13a.833.833 0 00.375-.373l3.124-6.25a.416.416 0 01.228-.204l3.62-1.35a2.083 2.083 0 001.128-2.72z"
+                                                        fill="#1A202C"></path>
+                                                </svg>
+                                            </span>
+                                            <h3>Vé máy bay</h3>
+                                        </div>
+                                        <div class="place-nav-title flex-align vnt355 " style="min-width: 130px;">
+                                            <span class="contrainer-place">
+                                                <svg width="20" height="20" fill="none">
+                                                    <path
+                                                        d="M11.854 11.806h2.102c.465 0 .838.374.838.84v1.578a.835.835 0 01-.838.837h-2.102a.836.836 0 01-.838-.837v-1.579c0-.465.374-.838.838-.838zM10.007 2c-.302 0-.607.165-.942.492L1.352 9.143c-.981.982.256 2.292 1.698 2.292v6.288c0 .706.641 1.274 1.438 1.274.825 0 1.413.098 1.413-.924V13.39c0-.877.705-1.582 1.582-1.582h.288c.877 0 1.582.705 1.582 1.582v4.69c0 .706.053.919 1.007.919h5.154c.797 0 1.438-.57 1.438-1.275v-6.288c1.44 0 2.679-1.31 1.697-2.292l-7.713-6.652c-.328-.33-.628-.492-.93-.491z"
+                                                        fill="#1A202C"></path>
+                                                </svg>
+                                            </span>
+                                            <h3>Biệt thự, Homestay</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vnt203" style="box-sizing: inherit">
+                                    <div class="place-nav-footer flex-align vnt358">
+                                        <div class="place-hotel flex-column">
+                                            <span class="hotel">Địa điểm</span>
+                                            <div class="input-hotel">
+                                                <input id="input-note-hotel" type="text"
+                                                    class="note-hotel base-note-hotel" placeholder="Bạn sắp đi đâu">
+                                            </div>
+                                        </div>
+                                        <div class="vertical-line"></div>
+                                        <div class="date-nav-footer flex-align">
+                                            <div class="date-go  flex-column">
+                                                <span class="title-contrainer">Ngày đến</span>
+                                                <span class="title-content">Chọn ngày đi</span>
+                                            </div>
+                                            <div class="icon-date-nav flex-align">
+                                                <svg width="10" height="9" fill="none" style="margin-left: 2px;">
+                                                    <path
+                                                        d="M4.982.504h.173A3.319 3.319 0 008.66 6.01 3.982 3.982 0 114.982.5v.004z"
+                                                        stroke="#718096" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <div class="date-backHome  flex-column">
+                                                <span class="title-contrainer">Ngày về</span>
+                                                <span class="title-content">Chọn ngày về</span>
+                                            </div>
+                                        </div>
+                                        <div class="vertical-line"></div>
+                                        <div class="vnt204 flex-align">
+                                            <div class="number-people  flex-column">
+                                                <span class="title-contrainer">Số khách</span>
+                                                <span class="title-content vnt123">1 người lớn, 0 trẻ em</span>
+                                            </div>
+                                            <button class="btn-serach flex-align btn-serach-container serach-contents">
+                                                <span class="serach-label flex-align">
+                                                    <svg width="23" height="24" fill="none" class="svgFillAll"
+                                                        style="stroke: white;">
+                                                        <path
+                                                            d="M21.312 22.5l-4.742-4.742m2.71-7.451a8.806 8.806 0 11-17.613 0 8.806 8.806 0 0117.613 0z"
+                                                            stroke="#fff" stroke-width="3" stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="serach-label_wrrapper"></span>
+                                            </button>
+                                        </div>
+                                        <div class="vertical-line" style="width: 0;"></div>
+                                        <div class="sub-navigation navigation-hotel vnt205 flex" style="height: 0;">
+                                        </div>
+                                        <div class="sub-navigation flex vnt206 date-rent vnt2061" style="height: 0;">
+
+                                        </div>
+                                        <div class="sub-navigation number-guest vnt207 number_room-number-people"
+                                            style="height: 0px; opacity: 1;">
+                                            <div class="wrapper-number-geust">
+                                                <div class="flex-align vnt122 vnt123" style="margin: 4px;">
+                                                    <div class="flex">
+                                                        <h6 class="title-Community14">
+                                                            Người lớn
+                                                        </h6>
+                                                    </div>
+                                                    <div class="number-of-people flex-align">
+                                                        <button class="box-quanlity minus-people">
+                                                            <div class="flex-center">
+                                                                <svg width="16" height="16" fill="none"
+                                                                    class="svgFillAll"
+                                                                    style="stroke: rgb(203, 213, 224);">
+                                                                    <path d="M3.333 8h9.334" stroke="#cdd7e1"
+                                                                        stroke-width="1.5" stroke-linecap="round"
+                                                                        stroke-linejoin="round">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                        <span class="title-Community16"
+                                                            style="width: 24px; padding: 0 24px;">1</span>
+                                                        <button class="box-quanlity plus-people">
+                                                            <div class="flex-center">
+                                                                <svg width="12" height="15" class="svgFillAll"
+                                                                    style="stroke: rgb(255, 51, 102);">
+                                                                    <g fill="#ff3366" stroke="#ff3366"
+                                                                        fill-rule="evenodd">
+                                                                        <path d="M.5 7.192h11v1H.5z">
+                                                                        </path>
+                                                                        <path d="M6.357 13.049h-.714v-11h.714v11z">
+                                                                        </path>
+                                                                    </g>
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="flex-align vnt122 vnt123" style="margin: 4px;">
+                                                    <div class="flex">
+                                                        <h6 class="title-Community14">
+                                                            Trẻ em
+                                                        </h6>
+                                                    </div>
+                                                    <div class="number-of-people flex-align">
+                                                        <button class="box-quanlity minus-people">
+                                                            <div class="flex-center">
+                                                                <svg width="16" height="16" fill="none"
+                                                                    class="svgFillAll"
+                                                                    style="stroke: rgb(203, 213, 224);">
+                                                                    <path d="M3.333 8h9.334" stroke="#cdd7e1"
+                                                                        stroke-width="1.5" stroke-linecap="round"
+                                                                        stroke-linejoin="round">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                        <span class="title-Community16"
+                                                            style="width: 24px; padding: 0 24px;">0</span>
+                                                        <button class="box-quanlity plus-people">
+                                                            <div class="flex-center">
+                                                                <svg width="12" height="15" class="svgFillAll"
+                                                                    style="stroke: rgb(255, 51, 102);">
+                                                                    <g fill="#ff3366" stroke="#ff3366"
+                                                                        fill-rule="evenodd">
+                                                                        <path d="M.5 7.192h11v1H.5z">
+                                                                        </path>
+                                                                        <path d="M6.357 13.049h-.714v-11h.714v11z">
+                                                                        </path>
+                                                                    </g>
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <main>
+            <div class="content-body" style="width: 100%; background-color: #fff;">
+                <div class="wrapper-slide-content">
+                    <div class="slide-content">
+                        <div class="slide-list">
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image//binh-dinh.jpg" alt="" class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/da-lat.jpg" alt="" class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+                            <div class="container-slide">
+                                <a href="">
+                                    <img src="./image/ban-dao-son-tra-dia-diem-du-lich-da-nang-1-22.webp" alt=""
+                                        class="image-slide">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="arrow-right flex-align">
+                            <svg width="16" height="17" fill="none" class="svgFillAll jss214">
+                                <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5" stroke="#1A202C"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div class="cover-slide"></div>
+                    </div>
+                </div>
+                <div class="wrapper-lazyload">
+                    <div style="margin-top: 44px;">
+                        <div class="container-plane-wrappper flex-column">
+                            <div class="title-plane-wrappper flex flex-align">
+                                <div class="location-plane">
+                                    <h2 class="flex-align">
+                                        <p class="location-plane-title title-Community">
+                                            Chuyến bay giá tốt
+                                        </p>
+                                        <div class="location-plane-change flex">
+                                            <span class="title-Community" style="margin-left: 8px;">từ</span>
+                                            <span class="title-Community" style="color: #ff3366; margin:0 8px;">Hồ Chí
+                                                Minh</span>
+                                            <svg width="10" height="6" fill="none" class="svgFillAll"
+                                                style="margin-top: 12px; stroke: rgb(255, 51, 102); cursor: pointer; transform: rotate(180deg);">
+                                                <path d="M1 5l4-4 4 4" stroke="#00B6F3" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </div>
+                                    </h2>
+                                    <p class="title-Community" style="font-size: 14px; margin-top: 4px;">Những chuyến
+                                        bay giá tốt nhất
+                                        trong tháng khởi hành
+                                        từ Hồ Chí Minh
+                                    </p>
+                                </div>
+                                <a href="" class="location-plane-more">
+                                    <button class="btn-plane-more title-more-plane flex-align flex-center">
+                                        <div class="flex-align flex-center " style="width: 100%;">
+                                            <div class="flex-align flex-center">
+                                                <div class="flex-align title-more-plane_sub">
+                                                    Khám phá ngay
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="content-plane-wrappper" style="position: relative;">
+                                <div class="slide-list">
+                                    <div class="container-slide">
+                                        <div>
+                                            <div class="container-plane">
+                                                <div class="airline-plane flex-align">
+                                                    <div class="airline-item">
+                                                        <img src="./image/image (1).webp" alt="">
+                                                    </div>
+                                                    <h3 class="ariline-title title-Community14-body"
+                                                        style="margin-left: 8px;">
+                                                        Vietravel Airlines
+                                                    </h3>
+                                                </div>
+                                                <div class="content-airline-plane">
+                                                    <h3 class="flex-align" style="margin-bottom: 8px;">
+                                                        <div class="title-Community16">Tân Sơn Nhất</div>
+                                                        <div class="title-Community16 svgArrow">
+                                                            <svg width="24" height="24" fill="none">
+                                                                <path d="M17.5 10.5L20 13M4 13h16" stroke="#1A202C"
+                                                                    stroke-width="1.5" stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="title-Community16">Nội Bài</div>
+
+                                                    </h3>
+                                                    <span class="title-Community14-body flex-align"
+                                                        style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                                            style="    width: 20px;
+                                                                height: 20px;
+                                                                transform: rotate(-45deg); margin-right: 4px; fill: rgb(74, 85, 104);">
+                                                            <path
+                                                                d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                                                        </svg>
+                                                        Khởi hành
+                                                        :
+                                                        09/02/2025
+                                                    </span>
+                                                    <div class="flex-end content-airline-plane_title"
+                                                        style="margin-top: 12px;">
+                                                        <div>
+                                                            <div class="flex-column plane_title">
+                                                                <div class="title-Community14-body "
+                                                                    style="text-decoration: line-through; text-align: right;">
+                                                                    248.000 ₫
+                                                                </div>
+                                                                <span class="title-Community16"
+                                                                    style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                                    198.000 ₫
+                                                                </span>
+                                                                <div class="title-Community14-body">
+                                                                    Giá sau thuế : 906.240 ₫
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-slide">
+                                        <div>
+                                            <div class="container-plane">
+                                                <div class="airline-plane flex-align">
+                                                    <div class="airline-item">
+                                                        <img src="./image/image (1).webp" alt="">
+                                                    </div>
+                                                    <h3 class="ariline-title title-Community14-body"
+                                                        style="margin-left: 8px;">
+                                                        Vietravel Airlines
+                                                    </h3>
+                                                </div>
+                                                <div class="content-airline-plane">
+                                                    <h3 class="flex-align" style="margin-bottom: 8px;">
+                                                        <div class="title-Community16">Tân Sơn Nhất</div>
+                                                        <div class="title-Community16 svgArrow">
+                                                            <svg width="24" height="24" fill="none">
+                                                                <path d="M17.5 10.5L20 13M4 13h16" stroke="#1A202C"
+                                                                    stroke-width="1.5" stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="title-Community16">Nội Bài</div>
+
+                                                    </h3>
+                                                    <span class="title-Community14-body flex-align"
+                                                        style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                                            style="    width: 20px;
+                                                                height: 20px;
+                                                                transform: rotate(-45deg); margin-right: 4px; fill: rgb(74, 85, 104);">
+                                                            <path
+                                                                d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                                                        </svg>
+                                                        Khởi hành
+                                                        :
+                                                        09/02/2025
+                                                    </span>
+                                                    <div class="flex-end content-airline-plane_title"
+                                                        style="margin-top: 12px;">
+                                                        <div>
+                                                            <div class="flex-column plane_title">
+                                                                <div class="title-Community14-body "
+                                                                    style="text-decoration: line-through; text-align: right;">
+                                                                    248.000 ₫
+                                                                </div>
+                                                                <span class="title-Community16"
+                                                                    style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                                    198.000 ₫
+                                                                </span>
+                                                                <div class="title-Community14-body">
+                                                                    Giá sau thuế : 906.240 ₫
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-slide">
+                                        <div>
+                                            <div class="container-plane">
+                                                <div class="airline-plane flex-align">
+                                                    <div class="airline-item">
+                                                        <img src="./image/image (1).webp" alt="">
+                                                    </div>
+                                                    <h3 class="ariline-title title-Community14-body"
+                                                        style="margin-left: 8px;">
+                                                        Vietravel Airlines
+                                                    </h3>
+                                                </div>
+                                                <div class="content-airline-plane">
+                                                    <h3 class="flex-align" style="margin-bottom: 8px;">
+                                                        <div class="title-Community16">Tân Sơn Nhất</div>
+                                                        <div class="title-Community16 svgArrow">
+                                                            <svg width="24" height="24" fill="none">
+                                                                <path d="M17.5 10.5L20 13M4 13h16" stroke="#1A202C"
+                                                                    stroke-width="1.5" stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="title-Community16">Nội Bài</div>
+
+                                                    </h3>
+                                                    <span class="title-Community14-body flex-align"
+                                                        style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                                            style="    width: 20px;
+                                                                height: 20px;
+                                                                transform: rotate(-45deg); margin-right: 4px; fill: rgb(74, 85, 104);">
+                                                            <path
+                                                                d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                                                        </svg>
+                                                        Khởi hành
+                                                        :
+                                                        09/02/2025
+                                                    </span>
+                                                    <div class="flex-end content-airline-plane_title"
+                                                        style="margin-top: 12px;">
+                                                        <div>
+                                                            <div class="flex-column plane_title">
+                                                                <div class="title-Community14-body "
+                                                                    style="text-decoration: line-through; text-align: right;">
+                                                                    248.000 ₫
+                                                                </div>
+                                                                <span class="title-Community16"
+                                                                    style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                                    198.000 ₫
+                                                                </span>
+                                                                <div class="title-Community14-body">
+                                                                    Giá sau thuế : 906.240 ₫
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-slide">
+                                        <div>
+                                            <div class="container-plane">
+                                                <div class="airline-plane flex-align">
+                                                    <div class="airline-item">
+                                                        <img src="./image/image (1).webp" alt="">
+                                                    </div>
+                                                    <h3 class="ariline-title title-Community14-body"
+                                                        style="margin-left: 8px;">
+                                                        Vietravel Airlines
+                                                    </h3>
+                                                </div>
+                                                <div class="content-airline-plane">
+                                                    <h3 class="flex-align" style="margin-bottom: 8px;">
+                                                        <div class="title-Community16">Tân Sơn Nhất</div>
+                                                        <div class="title-Community16 svgArrow">
+                                                            <svg width="24" height="24" fill="none">
+                                                                <path d="M17.5 10.5L20 13M4 13h16" stroke="#1A202C"
+                                                                    stroke-width="1.5" stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="title-Community16">Nội Bài</div>
+
+                                                    </h3>
+                                                    <span class="title-Community14-body flex-align"
+                                                        style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                                            style="    width: 20px;
+                                                                height: 20px;
+                                                                transform: rotate(-45deg); margin-right: 4px; fill: rgb(74, 85, 104);">
+                                                            <path
+                                                                d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                                                        </svg>
+                                                        Khởi hành
+                                                        :
+                                                        09/02/2025
+                                                    </span>
+                                                    <div class="flex-end content-airline-plane_title"
+                                                        style="margin-top: 12px;">
+                                                        <div>
+                                                            <div class="flex-column plane_title">
+                                                                <div class="title-Community14-body "
+                                                                    style="text-decoration: line-through; text-align: right;">
+                                                                    248.000 ₫
+                                                                </div>
+                                                                <span class="title-Community16"
+                                                                    style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                                    198.000 ₫
+                                                                </span>
+                                                                <div class="title-Community14-body">
+                                                                    Giá sau thuế : 906.240 ₫
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-slide">
+                                        <div>
+                                            <div class="container-plane">
+                                                <div class="airline-plane flex-align">
+                                                    <div class="airline-item">
+                                                        <img src="./image/image (1).webp" alt="">
+                                                    </div>
+                                                    <h3 class="ariline-title title-Community14-body"
+                                                        style="margin-left: 8px;">
+                                                        Vietravel Airlines
+                                                    </h3>
+                                                </div>
+                                                <div class="content-airline-plane">
+                                                    <h3 class="flex-align" style="margin-bottom: 8px;">
+                                                        <div class="title-Community16">Tân Sơn Nhất</div>
+                                                        <div class="title-Community16 svgArrow">
+                                                            <svg width="24" height="24" fill="none">
+                                                                <path d="M17.5 10.5L20 13M4 13h16" stroke="#1A202C"
+                                                                    stroke-width="1.5" stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="title-Community16">Nội Bài</div>
+
+                                                    </h3>
+                                                    <span class="title-Community14-body flex-align"
+                                                        style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                                            style="    width: 20px;
+                                                                height: 20px;
+                                                                transform: rotate(-45deg); margin-right: 4px; fill: rgb(74, 85, 104);">
+                                                            <path
+                                                                d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                                                        </svg>
+                                                        Khởi hành
+                                                        :
+                                                        09/02/2025
+                                                    </span>
+                                                    <div class="flex-end content-airline-plane_title"
+                                                        style="margin-top: 12px;">
+                                                        <div>
+                                                            <div class="flex-column plane_title">
+                                                                <div class="title-Community14-body "
+                                                                    style="text-decoration: line-through; text-align: right;">
+                                                                    248.000 ₫
+                                                                </div>
+                                                                <span class="title-Community16"
+                                                                    style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                                    198.000 ₫
+                                                                </span>
+                                                                <div class="title-Community14-body">
+                                                                    Giá sau thuế : 906.240 ₫
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-slide">
+                                        <div>
+                                            <div class="container-plane">
+                                                <div class="airline-plane flex-align">
+                                                    <div class="airline-item">
+                                                        <img src="./image/image (1).webp" alt="">
+                                                    </div>
+                                                    <h3 class="ariline-title title-Community14-body"
+                                                        style="margin-left: 8px;">
+                                                        Vietravel Airlines
+                                                    </h3>
+                                                </div>
+                                                <div class="content-airline-plane">
+                                                    <h3 class="flex-align" style="margin-bottom: 8px;">
+                                                        <div class="title-Community16">Tân Sơn Nhất</div>
+                                                        <div class="title-Community16 svgArrow">
+                                                            <svg width="24" height="24" fill="none">
+                                                                <path d="M17.5 10.5L20 13M4 13h16" stroke="#1A202C"
+                                                                    stroke-width="1.5" stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="title-Community16">Nội Bài</div>
+
+                                                    </h3>
+                                                    <span class="title-Community14-body flex-align"
+                                                        style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                                            style="    width: 20px;
+                                                                height: 20px;
+                                                                transform: rotate(-45deg); margin-right: 4px; fill: rgb(74, 85, 104);">
+                                                            <path
+                                                                d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                                                        </svg>
+                                                        Khởi hành
+                                                        :
+                                                        09/02/2025
+                                                    </span>
+                                                    <div class="flex-end content-airline-plane_title"
+                                                        style="margin-top: 12px;">
+                                                        <div>
+                                                            <div class="flex-column plane_title">
+                                                                <div class="title-Community14-body "
+                                                                    style="text-decoration: line-through; text-align: right;">
+                                                                    248.000 ₫
+                                                                </div>
+                                                                <span class="title-Community16"
+                                                                    style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                                    198.000 ₫
+                                                                </span>
+                                                                <div class="title-Community14-body">
+                                                                    Giá sau thuế : 906.240 ₫
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-slide">
+                                        <div>
+                                            <div class="container-plane">
+                                                <div class="airline-plane flex-align">
+                                                    <div class="airline-item">
+                                                        <img src="./image/image (1).webp" alt="">
+                                                    </div>
+                                                    <h3 class="ariline-title title-Community14-body"
+                                                        style="margin-left: 8px;">
+                                                        Vietravel Airlines
+                                                    </h3>
+                                                </div>
+                                                <div class="content-airline-plane">
+                                                    <h3 class="flex-align" style="margin-bottom: 8px;">
+                                                        <div class="title-Community16">Tân Sơn Nhất</div>
+                                                        <div class="title-Community16 svgArrow">
+                                                            <svg width="24" height="24" fill="none">
+                                                                <path d="M17.5 10.5L20 13M4 13h16" stroke="#1A202C"
+                                                                    stroke-width="1.5" stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="title-Community16">Nội Bài</div>
+
+                                                    </h3>
+                                                    <span class="title-Community14-body flex-align"
+                                                        style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                                            style="    width: 20px;
+                                                                height: 20px;
+                                                                transform: rotate(-45deg); margin-right: 4px; fill: rgb(74, 85, 104);">
+                                                            <path
+                                                                d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                                                        </svg>
+                                                        Khởi hành
+                                                        :
+                                                        09/02/2025
+                                                    </span>
+                                                    <div class="flex-end content-airline-plane_title"
+                                                        style="margin-top: 12px;">
+                                                        <div>
+                                                            <div class="flex-column plane_title">
+                                                                <div class="title-Community14-body "
+                                                                    style="text-decoration: line-through; text-align: right;">
+                                                                    248.000 ₫
+                                                                </div>
+                                                                <span class="title-Community16"
+                                                                    style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                                    198.000 ₫
+                                                                </span>
+                                                                <div class="title-Community14-body">
+                                                                    Giá sau thuế : 906.240 ₫
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-slide">
+                                        <div>
+                                            <div class="container-plane">
+                                                <div class="airline-plane flex-align">
+                                                    <div class="airline-item">
+                                                        <img src="./image/image (1).webp" alt="">
+                                                    </div>
+                                                    <h3 class="ariline-title title-Community14-body"
+                                                        style="margin-left: 8px;">
+                                                        Vietravel Airlines
+                                                    </h3>
+                                                </div>
+                                                <div class="content-airline-plane">
+                                                    <h3 class="flex-align" style="margin-bottom: 8px;">
+                                                        <div class="title-Community16">Tân Sơn Nhất</div>
+                                                        <div class="title-Community16 svgArrow">
+                                                            <svg width="24" height="24" fill="none">
+                                                                <path d="M17.5 10.5L20 13M4 13h16" stroke="#1A202C"
+                                                                    stroke-width="1.5" stroke-linecap="round"
+                                                                    stroke-linejoin="round"></path>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="title-Community16">Nội Bài</div>
+
+                                                    </h3>
+                                                    <span class="title-Community14-body flex-align"
+                                                        style="width: 100%;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                                            style="    width: 20px;
+                                                                height: 20px;
+                                                                transform: rotate(-45deg); margin-right: 4px; fill: rgb(74, 85, 104);">
+                                                            <path
+                                                                d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                                                        </svg>
+                                                        Khởi hành
+                                                        :
+                                                        09/02/2025
+                                                    </span>
+                                                    <div class="flex-end content-airline-plane_title"
+                                                        style="margin-top: 12px;">
+                                                        <div>
+                                                            <div class="flex-column plane_title">
+                                                                <div class="title-Community14-body "
+                                                                    style="text-decoration: line-through; text-align: right;">
+                                                                    248.000 ₫
+                                                                </div>
+                                                                <span class="title-Community16"
+                                                                    style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                                    198.000 ₫
+                                                                </span>
+                                                                <div class="title-Community14-body">
+                                                                    Giá sau thuế : 906.240 ₫
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="arrow-right flex-align">
+                                    <svg width="16" height="17" fill="none" class="svgFillAll jss214">
+                                        <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5"
+                                            stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="wrapper-lazyload">
+                    <div class="wrapper-lazyload-hotel title-Community14-body">
+                        <div class="lazyload-hotel flex-column">
+                            <div class="lazyload-hotel-title flex-column">
+                                <h2 class="title-Community24" style="margin-bottom: 8px;">Khách sạn giá sốc chỉ có trên
+                                    Voyage</h2>
+                                <span style="color: rgb(74, 85, 104);">Tiết kiệm chi phí với các khách sạn hợp tác chiến
+                                    lược cùng Voyage, cam kết giá
+                                    tốt nhất và chất lượng dịch vụ tốt nhất dành cho bạn.</span>
+                                <div class="option-hotel_lazyload flex">
+                                    <button class="option-hotel-Btn hotel-Btn">
+                                        <span class="hotel-label">
+                                            <div class="flex-center">
+                                                <div class="flex-align">Hồ Chí Minh</div>
+                                            </div>
+                                        </span>
+                                    </button>
+                                    <button class="option-hotel-Btn" style="margin-left: 12px;">
+                                        <span class="hotel-label">
+                                            <div class="flex-center">
+                                                <div class="flex-align">Vũng Tàu</div>
+                                            </div>
+                                        </span>
+                                    </button>
+                                    <button class="option-hotel-Btn" style="margin-left: 12px;">
+                                        <span class="hotel-label">
+                                            <div class="flex-center">
+                                                <div class="flex-align">Đà Lạt</div>
+                                            </div>
+                                        </span>
+                                    </button>
+                                    <button class="option-hotel-Btn" style="margin-left: 12px;">
+                                        <span class="hotel-label">
+                                            <div class="flex-center">
+                                                <div class="flex-align">Hà Nội</div>
+                                            </div>
+                                        </span>
+                                    </button>
+                                    <button class="option-hotel-Btn" style="margin-left: 12px;">
+                                        <span class="hotel-label">
+                                            <div class="flex-center">
+                                                <div class="flex-align">Đà Nẵng</div>
+                                            </div>
+                                        </span>
+                                    </button>
+                                    <button class="option-hotel-Btn" style="margin-left: 12px;">
+                                        <span class="hotel-label">
+                                            <div class="flex-center">
+                                                <div class="flex-align">Phú Quốc</div>
+                                            </div>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="lazyload-hotel-grid">
+                                <a href="" class="lazyload-hotel-link">
+                                    <div class="wrapper-hotel-link">
+                                        <div class="hotel-image">
+                                            <div class="lazyload-hotel-images">
+                                                <img src="./image/ha-long.jpg" alt="" class="lazyload-hotel-image">
+                                            </div>
+                                            <div class="discount-hotel-items">
+                                                <span class="discount-hotel-item flex-align">
+                                                    -15%
+                                                </span>
+                                            </div>
+                                            <!-- thêm item trái tim để hiển thị yêu thích hotel -->
+                                        </div>
+                                        <div class="hotel-content flex-column">
+                                            <div class="hotel-content-name">
+                                                <h3 class="title-Community16 title-hotel">Mayfair Suites</h3>
+                                                <div class="hotel-star flex-align" style="margin: 4px 0 6px 0;">
+                                                    <div>
+                                                        <div class="flex">
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="hotels-location flex-align">
+                                                    <span style="margin-right: 4px;">
+                                                        <svg width="16" height="16" fill="none">
+                                                            <path d="M8.467 3.8V2a1 1 0 00-1-1h-.8a1 1 0 00-1 1v1.8"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path
+                                                                d="M1 7.467a1 1 0 001 1h9.838a1 1 0 00.64-.232l1.6-1.333a1 1 0 000-1.537l-1.6-1.333a1 1 0 00-.64-.232H2a1 1 0 00-1 1v2.667zM5.667 10.333V14a1 1 0 001 1h.8a1 1 0 001-1v-3.667"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="hotel-location">Quận 1</span>
+                                                </div>
+                                            </div>
+                                            <div class="hotel-contetn-price flex-end flex-column">
+                                                <div class="flex-column hotel_title">
+                                                    <div class="title-Community14-body "
+                                                        style="text-decoration: line-through; text-align: right;">
+                                                        248.000 ₫
+                                                    </div>
+                                                    <span class="title-Community16"
+                                                        style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                        198.000 ₫
+                                                    </span>
+                                                    <div class="title-Community14-body">
+                                                        Giá sau thuế : 906.240 ₫
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="lazyload-hotel-link">
+                                    <div class="wrapper-hotel-link">
+                                        <div class="hotel-image">
+                                            <div class="lazyload-hotel-images">
+                                                <img src="./image/ha-long.jpg" alt="" class="lazyload-hotel-image">
+                                            </div>
+                                            <div class="discount-hotel-items">
+                                                <span class="discount-hotel-item flex-align">
+                                                    -15%
+                                                </span>
+                                            </div>
+                                            <!-- thêm item trái tim để hiển thị yêu thích hotel -->
+                                        </div>
+                                        <div class="hotel-content flex-column">
+                                            <div class="hotel-content-name">
+                                                <h3 class="title-Community16 title-hotel">Mayfair Suites</h3>
+                                                <div class="hotel-star flex-align" style="margin: 4px 0 6px 0;">
+                                                    <div>
+                                                        <div class="flex">
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="hotels-location flex-align">
+                                                    <span style="margin-right: 4px;">
+                                                        <svg width="16" height="16" fill="none">
+                                                            <path d="M8.467 3.8V2a1 1 0 00-1-1h-.8a1 1 0 00-1 1v1.8"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path
+                                                                d="M1 7.467a1 1 0 001 1h9.838a1 1 0 00.64-.232l1.6-1.333a1 1 0 000-1.537l-1.6-1.333a1 1 0 00-.64-.232H2a1 1 0 00-1 1v2.667zM5.667 10.333V14a1 1 0 001 1h.8a1 1 0 001-1v-3.667"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="hotel-location">Quận 1</span>
+                                                </div>
+                                            </div>
+                                            <div class="hotel-contetn-price flex-end flex-column">
+                                                <div class="flex-column hotel_title">
+                                                    <div class="title-Community14-body "
+                                                        style="text-decoration: line-through; text-align: right;">
+                                                        248.000 ₫
+                                                    </div>
+                                                    <span class="title-Community16"
+                                                        style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                        198.000 ₫
+                                                    </span>
+                                                    <div class="title-Community14-body">
+                                                        Giá sau thuế : 906.240 ₫
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="lazyload-hotel-link">
+                                    <div class="wrapper-hotel-link">
+                                        <div class="hotel-image">
+                                            <div class="lazyload-hotel-images">
+                                                <img src="./image/ha-long.jpg" alt="" class="lazyload-hotel-image">
+                                            </div>
+                                            <div class="discount-hotel-items">
+                                                <span class="discount-hotel-item flex-align">
+                                                    -15%
+                                                </span>
+                                            </div>
+                                            <!-- thêm item trái tim để hiển thị yêu thích hotel -->
+                                        </div>
+                                        <div class="hotel-content flex-column">
+                                            <div class="hotel-content-name">
+                                                <h3 class="title-Community16 title-hotel">Mayfair Suites</h3>
+                                                <div class="hotel-star flex-align" style="margin: 4px 0 6px 0;">
+                                                    <div>
+                                                        <div class="flex">
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="hotels-location flex-align">
+                                                    <span style="margin-right: 4px;">
+                                                        <svg width="16" height="16" fill="none">
+                                                            <path d="M8.467 3.8V2a1 1 0 00-1-1h-.8a1 1 0 00-1 1v1.8"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path
+                                                                d="M1 7.467a1 1 0 001 1h9.838a1 1 0 00.64-.232l1.6-1.333a1 1 0 000-1.537l-1.6-1.333a1 1 0 00-.64-.232H2a1 1 0 00-1 1v2.667zM5.667 10.333V14a1 1 0 001 1h.8a1 1 0 001-1v-3.667"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="hotel-location">Quận 1</span>
+                                                </div>
+                                            </div>
+                                            <div class="hotel-contetn-price flex-end flex-column">
+                                                <div class="flex-column hotel_title">
+                                                    <div class="title-Community14-body "
+                                                        style="text-decoration: line-through; text-align: right;">
+                                                        248.000 ₫
+                                                    </div>
+                                                    <span class="title-Community16"
+                                                        style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                        198.000 ₫
+                                                    </span>
+                                                    <div class="title-Community14-body">
+                                                        Giá sau thuế : 906.240 ₫
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="lazyload-hotel-link">
+                                    <div class="wrapper-hotel-link">
+                                        <div class="hotel-image">
+                                            <div class="lazyload-hotel-images">
+                                                <img src="./image/ha-long.jpg" alt="" class="lazyload-hotel-image">
+                                            </div>
+                                            <div class="discount-hotel-items">
+                                                <span class="discount-hotel-item flex-align">
+                                                    -15%
+                                                </span>
+                                            </div>
+                                            <!-- thêm item trái tim để hiển thị yêu thích hotel -->
+                                        </div>
+                                        <div class="hotel-content flex-column">
+                                            <div class="hotel-content-name">
+                                                <h3 class="title-Community16 title-hotel">Mayfair Suites</h3>
+                                                <div class="hotel-star flex-align" style="margin: 4px 0 6px 0;">
+                                                    <div>
+                                                        <div class="flex">
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="hotels-location flex-align">
+                                                    <span style="margin-right: 4px;">
+                                                        <svg width="16" height="16" fill="none">
+                                                            <path d="M8.467 3.8V2a1 1 0 00-1-1h-.8a1 1 0 00-1 1v1.8"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path
+                                                                d="M1 7.467a1 1 0 001 1h9.838a1 1 0 00.64-.232l1.6-1.333a1 1 0 000-1.537l-1.6-1.333a1 1 0 00-.64-.232H2a1 1 0 00-1 1v2.667zM5.667 10.333V14a1 1 0 001 1h.8a1 1 0 001-1v-3.667"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="hotel-location">Quận 1</span>
+                                                </div>
+                                            </div>
+                                            <div class="hotel-contetn-price flex-end flex-column">
+                                                <div class="flex-column hotel_title">
+                                                    <div class="title-Community14-body "
+                                                        style="text-decoration: line-through; text-align: right;">
+                                                        248.000 ₫
+                                                    </div>
+                                                    <span class="title-Community16"
+                                                        style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                        198.000 ₫
+                                                    </span>
+                                                    <div class="title-Community14-body">
+                                                        Giá sau thuế : 906.240 ₫
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="lazyload-hotel-link">
+                                    <div class="wrapper-hotel-link">
+                                        <div class="hotel-image">
+                                            <div class="lazyload-hotel-images">
+                                                <img src="./image/ha-long.jpg" alt="" class="lazyload-hotel-image">
+                                            </div>
+                                            <div class="discount-hotel-items">
+                                                <span class="discount-hotel-item flex-align">
+                                                    -15%
+                                                </span>
+                                            </div>
+                                            <!-- thêm item trái tim để hiển thị yêu thích hotel -->
+                                        </div>
+                                        <div class="hotel-content flex-column">
+                                            <div class="hotel-content-name">
+                                                <h3 class="title-Community16 title-hotel">Mayfair Suites</h3>
+                                                <div class="hotel-star flex-align" style="margin: 4px 0 6px 0;">
+                                                    <div>
+                                                        <div class="flex">
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="hotels-location flex-align">
+                                                    <span style="margin-right: 4px;">
+                                                        <svg width="16" height="16" fill="none">
+                                                            <path d="M8.467 3.8V2a1 1 0 00-1-1h-.8a1 1 0 00-1 1v1.8"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path
+                                                                d="M1 7.467a1 1 0 001 1h9.838a1 1 0 00.64-.232l1.6-1.333a1 1 0 000-1.537l-1.6-1.333a1 1 0 00-.64-.232H2a1 1 0 00-1 1v2.667zM5.667 10.333V14a1 1 0 001 1h.8a1 1 0 001-1v-3.667"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="hotel-location">Quận 1</span>
+                                                </div>
+                                            </div>
+                                            <div class="hotel-contetn-price flex-end flex-column">
+                                                <div class="flex-column hotel_title">
+                                                    <div class="title-Community14-body "
+                                                        style="text-decoration: line-through; text-align: right;">
+                                                        248.000 ₫
+                                                    </div>
+                                                    <span class="title-Community16"
+                                                        style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                        198.000 ₫
+                                                    </span>
+                                                    <div class="title-Community14-body">
+                                                        Giá sau thuế : 906.240 ₫
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="lazyload-hotel-link">
+                                    <div class="wrapper-hotel-link">
+                                        <div class="hotel-image">
+                                            <div class="lazyload-hotel-images">
+                                                <img src="./image/ha-long.jpg" alt="" class="lazyload-hotel-image">
+                                            </div>
+                                            <div class="discount-hotel-items">
+                                                <span class="discount-hotel-item flex-align">
+                                                    -15%
+                                                </span>
+                                            </div>
+                                            <!-- thêm item trái tim để hiển thị yêu thích hotel -->
+                                        </div>
+                                        <div class="hotel-content flex-column">
+                                            <div class="hotel-content-name">
+                                                <h3 class="title-Community16 title-hotel">Mayfair Suites</h3>
+                                                <div class="hotel-star flex-align" style="margin: 4px 0 6px 0;">
+                                                    <div>
+                                                        <div class="flex">
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                            <svg width="14" height="14" fill="none"
+                                                                class="svgFillAll jss1133"
+                                                                style="stroke: rgb(255, 188, 57); fill: rgb(255, 188, 57);">
+                                                                <path
+                                                                    d="M12.464 5.684a1.055 1.055 0 00-.849-.719L9.078 4.6 7.94 2.31a1.05 1.05 0 00-1.88 0L4.925 4.598l-2.536.367a1.057 1.057 0 00-.87 1.292c.047.191.148.365.29.502L3.64 8.534l-.433 2.51a1.05 1.05 0 001.521 1.107l2.272-1.188 2.273 1.19a1.05 1.05 0 001.522-1.108l-.435-2.51 1.832-1.776a1.05 1.05 0 00.271-1.075z"
+                                                                    fill="#FFBC39"></path>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="hotels-location flex-align">
+                                                    <span style="margin-right: 4px;">
+                                                        <svg width="16" height="16" fill="none">
+                                                            <path d="M8.467 3.8V2a1 1 0 00-1-1h-.8a1 1 0 00-1 1v1.8"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                            <path
+                                                                d="M1 7.467a1 1 0 001 1h9.838a1 1 0 00.64-.232l1.6-1.333a1 1 0 000-1.537l-1.6-1.333a1 1 0 00-.64-.232H2a1 1 0 00-1 1v2.667zM5.667 10.333V14a1 1 0 001 1h.8a1 1 0 001-1v-3.667"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="hotel-location">Quận 1</span>
+                                                </div>
+                                            </div>
+                                            <div class="hotel-contetn-price flex-end flex-column">
+                                                <div class="flex-column hotel_title">
+                                                    <div class="title-Community14-body "
+                                                        style="text-decoration: line-through; text-align: right;">
+                                                        248.000 ₫
+                                                    </div>
+                                                    <span class="title-Community16"
+                                                        style="font-size: 18px; line-height: 22px; text-align: right; font-weight: 700">
+                                                        198.000 ₫
+                                                    </span>
+                                                    <div class="title-Community14-body">
+                                                        Giá sau thuế : 906.240 ₫
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="lazyload-hotel-moreBtn flex-center">
+                                <a href="" class="lazyload-Btn-hotel_wrapper">
+                                    <button class="btn-moreBtn">
+                                        <span class="btn-moreBtn-label" style="width: 100%;">
+                                            <div class="flex-center">
+                                                <div class="flex-align">
+                                                    Xem tất cả
+                                                </div>
+                                            </div>
+                                        </span>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-lazyload">
+                    <div class="wrapper-lazayload-band title-Community14-body">
+                        <div class="lazyload-band flex-column">
+                            <div class="lazyload-band-title flex">
+                                <div style="text-align: center;">
+                                    <div class="band-title">
+                                        <div class="band-title-image">
+                                            <img src="https://gcs.tripi.vn/tripi-assets/mytour/icons/icon_mytour_mall_red.svg"
+                                                alt="" class="band-image">
+                                        </div>
+                                    </div>
+                                    <p class="title-Community14-body">Các thương hiệu khách sạn đối tác hàng đầu</p>
+                                </div>
+                                <a href="" class="lazyload-Btn-hotel_wrapper">
+                                    <button class="btn-moreBtn-band">
+                                        <span class="btn-moreBtn-label-band" style="width: 100%;">
+                                            <div class="flex-center">
+                                                <div class="flex-align">
+                                                    Khám phá ngay
+                                                </div>
+                                            </div>
+                                        </span>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="contents-band-wrapper" style="position: relative;">
+                                <div class="slide-list">
+
+                                    <div class="content-bands">
+                                        <div>
+                                            <div style="width: 100%; display: inline-block ;">
+                                                <div class="content-band">
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="content-bands">
+                                        <div>
+                                            <div style="width: 100%; display: inline-block ;">
+                                                <div class="content-band">
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="content-bands">
+                                        <div>
+                                            <div style="width: 100%; display: inline-block ;">
+                                                <div class="content-band">
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="content-bands">
+                                        <div>
+                                            <div style="width: 100%; display: inline-block ;">
+                                                <div class="content-band">
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="content-bands">
+                                        <div>
+                                            <div style="width: 100%; display: inline-block ;">
+                                                <div class="content-band">
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="content-bands">
+                                        <div>
+                                            <div style="width: 100%; display: inline-block ;">
+                                                <div class="content-band">
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="content-bands">
+                                        <div>
+                                            <div style="width: 100%; display: inline-block ;">
+                                                <div class="content-band">
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="content-bands">
+                                        <div>
+                                            <div style="width: 100%; display: inline-block ;">
+                                                <div class="content-band">
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+                                                    <div class="content-band-wrapper ">
+                                                        <a href="" class="content-band-wrapper-link">
+                                                            <div class="br-Community">
+                                                                <div class="band-images">
+                                                                    <img src="./image/dia-diem-du-lich-o-ha-noi-1.jpg"
+                                                                        alt="Hà Nội" class="band_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bands-name">
+                                                                <div class="flex-center band-name">
+                                                                    <img src="./image/muongthanhlogo-1024x542.png"
+                                                                        alt=""
+                                                                        style="width: 100% ; height: auto; max-height: 100%;">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title-price-band flex">Chỉ từ 215k/người</div>
+                                                            <ul class="list-basic-information">
+                                                                <li>Bao trọn bữa sáng</li>
+                                                                <li>Khách sạn bán chạy nhất</li>
+                                                                <li>Phong cách đa dạng</li>
+                                                                <li>Đảm bảo giá tốt nhất</li>
+                                                            </ul>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="arrow-right flex-align">
+                                    <svg width="16" height="17" fill="none" class="svgFillAll jss214">
+                                        <path d="M3.333 8.5h9.334M10 11.167L12.667 8.5M10 5.833L12.667 8.5"
+                                            stroke="#1A202C" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-lazyload" style="width: 100%; background-color: #fff; padding-bottom: 120px;">
+                    <div class="lazyload-location-love">
+                        <p class="title-Community24" style="font-weight: bold;">Điểm đến yêu thích</p>
+                        <p class="title-Community14-body" style="color: #4a5568;">Địa điểm hot nhất do Voyage đề xuất
+                        </p>
+                        <div class="wrapper-item-hotel-love">
+                            <div class="place-hotel-1 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 266px; height: 266px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-2 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 133px; height: 133px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-3 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 163px; height: 163px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-4 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 163px; height: 163px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-5 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 266px; height: 266px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-6 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 163px; height: 163px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-7 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 200px; height: 200px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-8 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 163px; height: 163px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-9 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 133px; height: 133px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-10 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 163px; height: 163px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-11 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 266px; height: 266px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place-hotel-12 wrapper-hotel-love">
+                                <a href="">
+                                    <div style="width: 100%; height: 100%; position: relative;">
+                                        <div class="loaction-hotel-love">
+                                            <img src="./image/Dong-Thien-Cung-vinh-ha-long.jpg" alt=""
+                                                class="location-hotel-love-image"
+                                                style="width: 133px; height: 133px; border-radius: 50%;">
+                                        </div>
+                                        <div class="name-loaction-hotel-love">
+                                            Vịnh Hạ long
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+        </main>
+
+
+
+        <div class="footer-overview" style="margin-bottom: 20px;">
+            <div class="wrapper-overview">
+                <div class="email-discount">
+                    <div class="box-email flex-align">
+                        <div class="box flex-align">
+                            <div class="flex-align">
+                                <div class="" style="margin: 21px 0 21px 24px;">
+                                    <div class="item-email-container">
+                                        <div style="height: 100%;">
+                                            <img src="https://gcs.tripi.vn/tripi-assets/mytour/icons/icon_mail_red.svg"
+                                                alt="" class="item-email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="" style="margin: 19px 0 0 29px;">
+                                    <h4 class="title-Community16">Bạn muốn tiết kiệm tới 50% khi đặt phòng khách sạn, vé
+                                        máy bay?</h4>
+                                    <p class="title-Community14-body">
+                                        Nhập số điện thoại để Mytour có thể gửi đến bạn những chương trình khuyến mại
+                                        mới nhất!
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="from-telephone">
+                                    <form action="" class="telephone flex-align">
+                                        <div class="content-telephone flex-align">
+                                            <input type="text" class="input-telephone" placeholder="Nhập số điện thoại">
+                                        </div>
+                                        <div style="width: fit-content;">
+                                            <button class="btn-register"
+                                                style="margin-left: -5px; white-space: nowrap;">
+                                                <div style="width: 100%;">
+                                                    <div class="flex-center">
+                                                        <div class="flex-align">Đăng ký</div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span>
+                    <img src="./image/ic_logo_mytour.svg" alt="" class="image-logo_top_leff">
+                </span>
+                <div class="container-overview flex">
+                    <div class="overview-grow">
+                        <div class="title-Community14-body vy14" style="font-weight: 600;">Công ty cổ phần du lịch Việt
+                            Nam
+                        </div>
+                        <div class="title-Community14-body vy14">Tổng đài chăm sóc: 0388889385</div>
+                        <div class="title-Community14-body vy14">Email: hel0babyno123@gmail.com</div>
+                        <div class="title-Community14-body vy14">Văn phòng Hà Nội: Tả Thanh Oai, Thanh Trì, Hà Nội, Việt
+                            Nam
+                        </div>
+
+
+                    </div>
+                    <div class="overview-grow">
+                        <div class="title-Community14-body" style="font-weight: 600;">Chính sách & Quy định</div>
+                        <div class="link-security flex-column">
+                            <a href="">
+                                <span class="title-Community12">Điều khoản và điều kiện</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Quy định về thanh toán</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Chính sách bảo mật thông tin</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Quy chế hoạt động</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Chương trình khách hàng thân thiết</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Chương trình đánh giá trải nghiệm khách sạn</span>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="overview-grow">
+                        <div class="title-Community14-body" style="font-weight: 600;">Khách hàng và đối tác</div>
+                        <div class="link-security flex-column">
+                            <a href="">
+                                <span class="title-Community12">Giới thiệu nhận quà</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Hợp tác với chúng tôi</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Đăng nhập HMS</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Tuyển dụng</span>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-widget-tickets" style="position: fixed; top: auto; right: 0; bottom: 0;z-index: 1000;">
+            <div class="chat-hidden flex-end">
+                <div class="container-chat-hidden">
+
+                    <div class="item-help-chat flex-center">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="vnt3">
+                            <path d="M18.5455 29.3333H24.6061C26.6146 29.3333 28.2424 27.7055 28.2424 25.697V22.0606"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M10.0606 16H4V22.0606C4 23.4 5.08485 24.4848 6.42424 24.4848H10.0606V16Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path
+                                d="M28.2424 16H22.1818V24.4848H25.8182C27.1576 24.4848 28.2424 23.4 28.2424 22.0606V16Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path
+                                d="M28.2424 16V14.7879C28.2424 8.09334 22.8158 2.66667 16.1212 2.66667C9.42667 2.66667 4 8.09334 4 14.7879V16"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="hightline-border"></div>
+                    <div class="item-zalo-chat flex-center item-help-chat">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="vnt3">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M22.782 0.166016H27.199C33.2653 0.166016 36.8103 1.05701 39.9572 2.74421C43.1041 4.4314 45.5875 6.89585 47.2557 10.0428C48.9429 13.1897 49.8339 16.7347 49.8339 22.801V27.1991C49.8339 33.2654 48.9429 36.8104 47.2557 39.9573C45.5685 43.1042 43.1041 45.5877 39.9572 47.2559C36.8103 48.9431 33.2653 49.8341 27.199 49.8341H22.8009C16.7346 49.8341 13.1896 48.9431 10.0427 47.2559C6.89583 45.5687 4.41243 43.1042 2.7442 39.9573C1.057 36.8104 0.166016 33.2654 0.166016 27.1991V22.801C0.166016 16.7347 1.057 13.1897 2.7442 10.0428C4.43139 6.89585 6.89583 4.41245 10.0427 2.74421C13.1707 1.05701 16.7346 0.166016 22.782 0.166016Z"
+                                fill="#0068FF"></path>
+                            <path opacity="0.12" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M49.8336 26.4736V27.1994C49.8336 33.2657 48.9427 36.8107 47.2555 39.9576C45.5683 43.1045 43.1038 45.5879 39.9569 47.2562C36.81 48.9434 33.265 49.8344 27.1987 49.8344H22.8007C17.8369 49.8344 14.5612 49.2378 11.8104 48.0966L7.27539 43.4267L49.8336 26.4736Z"
+                                fill="#001A33"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M7.779 43.5892C10.1019 43.846 13.0061 43.1836 15.0682 42.1825C24.0225 47.1318 38.0197 46.8954 46.4923 41.4732C46.8209 40.9803 47.1279 40.4677 47.4128 39.9363C49.1062 36.7779 50.0004 33.22 50.0004 27.1316V22.7175C50.0004 16.629 49.1062 13.0711 47.4128 9.91273C45.7385 6.75436 43.2461 4.28093 40.0877 2.58758C36.9293 0.894239 33.3714 0 27.283 0H22.8499C17.6644 0 14.2982 0.652754 11.4699 1.89893C11.3153 2.03737 11.1636 2.17818 11.0151 2.32135C2.71734 10.3203 2.08658 27.6593 9.12279 37.0782C9.13064 37.0921 9.13933 37.1061 9.14889 37.1203C10.2334 38.7185 9.18694 41.5154 7.55068 43.1516C7.28431 43.399 7.37944 43.5512 7.779 43.5892Z"
+                                fill="white"></path>
+                            <path
+                                d="M20.5632 17H10.8382V19.0853H17.5869L10.9329 27.3317C10.7244 27.635 10.5728 27.9194 10.5728 28.5639V29.0947H19.748C20.203 29.0947 20.5822 28.7156 20.5822 28.2606V27.1421H13.4922L19.748 19.2938C19.8428 19.1801 20.0134 18.9716 20.0893 18.8768L20.1272 18.8199C20.4874 18.2891 20.5632 17.8341 20.5632 17.2844V17Z"
+                                fill="#0068FF"></path>
+                            <path
+                                d="M32.9416 29.0947H34.3255V17H32.2402V28.3933C32.2402 28.7725 32.5435 29.0947 32.9416 29.0947Z"
+                                fill="#0068FF"></path>
+                            <path
+                                d="M25.814 19.6924C23.1979 19.6924 21.0747 21.8156 21.0747 24.4317C21.0747 27.0478 23.1979 29.171 25.814 29.171C28.4301 29.171 30.5533 27.0478 30.5533 24.4317C30.5723 21.8156 28.4491 19.6924 25.814 19.6924ZM25.814 27.2184C24.2785 27.2184 23.0273 25.9672 23.0273 24.4317C23.0273 22.8962 24.2785 21.645 25.814 21.645C27.3495 21.645 28.6007 22.8962 28.6007 24.4317C28.6007 25.9672 27.3685 27.2184 25.814 27.2184Z"
+                                fill="#0068FF"></path>
+                            <path
+                                d="M40.4867 19.6162C37.8516 19.6162 35.7095 21.7584 35.7095 24.3934C35.7095 27.0285 37.8516 29.1707 40.4867 29.1707C43.1217 29.1707 45.2639 27.0285 45.2639 24.3934C45.2639 21.7584 43.1217 19.6162 40.4867 19.6162ZM40.4867 27.2181C38.9322 27.2181 37.681 25.9669 37.681 24.4124C37.681 22.8579 38.9322 21.6067 40.4867 21.6067C42.0412 21.6067 43.2924 22.8579 43.2924 24.4124C43.2924 25.9669 42.0412 27.2181 40.4867 27.2181Z"
+                                fill="#0068FF"></path>
+                            <path
+                                d="M29.4562 29.0944H30.5747V19.957H28.6221V28.2793C28.6221 28.7153 29.0012 29.0944 29.4562 29.0944Z"
+                                fill="#0068FF"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script src="./navigation.js"></script>
+    <script src="./slick.js"></script>
+    <script src="./calendar.js"></script>
+
+
+
+</body>
+
+</html>

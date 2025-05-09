@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage-Nền tảng du lịch Việt Nam</title>
+    <link rel="icon" type="image/png" href="./image/LogoVoyage_logo-removebg-preview.png">
+    <link rel="stylesheet" href="./Header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Community.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="wrrapper-header-content">
+            <div class=" prominent wrrapper-header ">
+                <div class="top-header flex-align">
+                    <div class="top-header-left flex-align">
+                        <div class="top-left-logo flex flex-column" style="align-items: center;">
+                            <a href="#" class="link-logo">
+                                <img src="./image/LogoVoyage-removebg-preview.png" alt="" class="image-logo_top_left">
+                            </a>
+                            <div class="top-left-title">
+                                Yên tâm vi vu một vòng Việt Nam
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-header-right flex-align">
+                        <div class="wrrapper-tour-world flex-align">
+                            <div class="tour-world flex-align">
+                                <img src="./image/icon_lang_vi.png" class="logo-world">
+                                <span class="title-world" style="font-size: 18px;">VI| VND</span>
+                            </div>
+                        </div>
+                        <div class="wrrapper-help-bell flex-align">
+                            <div class="help-bell">
+                                <svg width="20px" height="20px" style="color: rgb(26, 32, 44);"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416l384 0c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8l0-18.8c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z" />
+                                </svg>
+                            </div>
+                            <span class="subnav-bell number-bell subnav-bell-color flex-align">0</span>
+                        </div>
+                        <div class="wrrapper-buttons-user">
+                            <div class="buttons-user flex-align">
+                                <div class="button-user flex-align">
+                                    <button class="btn-login color-btn">Đăng nhập</button>
+                                    <button class="btn-register color-btn">Đăng ký</button>
+                                </div>
+                            </div>
+                        </div>
+                        <svg width="24px" height="24px" style="margin-left: 16px;" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512" class="bars-svg">
+                            <path
+                                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                        </svg>
+
+                    </div>
+
+
+
+                </div>
+                <div class="bottom-header flex-align">
+                    <a href="" class="bottom-header-links flex-align color-selected">Khách sạn
+                        <div class="border-line-bold">
+                            <div class="line-bold"></div>
+                        </div>
+                    </a>
+                    <a href="" class="bottom-header-links flex-align color-links">Vé máy bay</a>
+                    <a href="" class="bottom-header-links flex-align color-links">Biệt Thự, Homestay</a>
+                    <a href="" class="bottom-header-links flex-align color-links">Khách sạn tiết kiệm</a>
+                </div>
+
+            </div>
+            <div class="wrrapper-content">
+                <div class="wrrapper-content-image">
+                    <img src="./image/header_bg_img_mytour.jpeg" alt="" class="content-iamge">
+                </div>
+                <div class="wrrapper-navigations-content flex-center">
+                    <div class="navigations-content">
+                        <div class="navigation-ct">
+                            <div class="navigation">
+                                <div class="place-nav flex-align flex-column" style="display: none;">
+                                    <div class="place-nav-hedaer flex-align">
+                                        <div class="place-nav-title flex-align vnt353 " style="min-width: 130px;">
+                                            <span class="contrainer-place">
+                                                <svg width="20" height="20" fill="none">
+                                                    <path
+                                                        d="M2.5 4.75h11.25a.375.375 0 00.351-.507l-.943-2.513A1.131 1.131 0 0012.105 1h-7.96a1.131 1.131 0 00-1.05.73l-.946 2.513a.375.375 0 00.351.507zM18.25 17.5h-1.125a.188.188 0 01-.188-.188v-.357a.184.184 0 01.114-.167 1.681 1.681 0 001.012-1.538 50.433 50.433 0 00-1.328-5.355.391.391 0 00-.72 0 50.433 50.433 0 00-1.328 5.355 1.682 1.682 0 001.013 1.538.185.185 0 01.113.168v.357a.187.187 0 01-.187.187h-2.438a.188.188 0 01-.188-.188V5.688a.188.188 0 00-.188-.187H3.438a.187.187 0 00-.188.188v11.625a.188.188 0 01-.188.187H1.75a.75.75 0 100 1.5h16.5a.75.75 0 100-1.5zM5.125 7.562H7a.563.563 0 110 1.125H5.125a.563.563 0 110-1.124zM4.562 11.5a.562.562 0 01.563-.563H7a.563.563 0 010 1.126H5.125a.563.563 0 01-.563-.563zm4.688 5.813a.188.188 0 01-.188.187H7.188A.188.188 0 017 17.312v-1.687a1.125 1.125 0 012.25 0v1.688zm1.875-5.25H9.25a.562.562 0 010-1.126h1.875a.562.562 0 110 1.126zm0-3.376H9.25a.562.562 0 110-1.124h1.875a.562.562 0 110 1.125z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <h3>Khách sạn</h3>
+
+                                        </div>
+                                        <div class="place-nav-title flex-align vnt354 " style="min-width: 130px;">
+                                            <span class="contrainer-place">
+                                                <svg width="20" height="20" fill="none">
+                                                    <path
+                                                        d="M5.073 5.269l3.25 1.345a.417.417 0 00.326 0l3.46-1.506a.209.209 0 000-.383L7.703 2.904a.838.838 0 00-.639 0l-1.99.826a.833.833 0 000 1.539z">
+                                                    </path>
+                                                    <path
+                                                        d="M19.656 5.043a2.083 2.083 0 00-2.722-1.127h-.006L5.895 8.718a.417.417 0 01-.352-.01l-1.98-.99a.843.843 0 00-.701-.02l-2.172.93a.833.833 0 00-.262 1.357l3.12 3.12a.833.833 0 00.899.185l4.68-1.874a.207.207 0 01.273.266l-1.63 4.35a.833.833 0 001.153 1.038l2.258-1.13a.833.833 0 00.375-.373l3.124-6.25a.416.416 0 01.228-.204l3.62-1.35a2.083 2.083 0 001.128-2.72z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <h3>Vé máy bay</h3>
+                                        </div>
+                                        <div class="place-nav-title flex-align vnt355 " style="min-width: 130px;">
+                                            <span class="contrainer-place">
+                                                <svg width="20" height="20" fill="none">
+                                                    <path
+                                                        d="M11.854 11.806h2.102c.465 0 .838.374.838.84v1.578a.835.835 0 01-.838.837h-2.102a.836.836 0 01-.838-.837v-1.579c0-.465.374-.838.838-.838zM10.007 2c-.302 0-.607.165-.942.492L1.352 9.143c-.981.982.256 2.292 1.698 2.292v6.288c0 .706.641 1.274 1.438 1.274.825 0 1.413.098 1.413-.924V13.39c0-.877.705-1.582 1.582-1.582h.288c.877 0 1.582.705 1.582 1.582v4.69c0 .706.053.919 1.007.919h5.154c.797 0 1.438-.57 1.438-1.275v-6.288c1.44 0 2.679-1.31 1.697-2.292l-7.713-6.652c-.328-.33-.628-.492-.93-.491z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <h3>Biệt thự, Homestay</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vnt203" style="box-sizing: inherit">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div class="content-body" style="width: 100%; background-color: #fff;">
+                <div class="wrapper-ticket">
+                    <div class="wrapper-ticket title-Community14-body" style="background-color: #fff;">
+                        <div class="lazyload-hotel flex-column">
+                            <div class="lazyload-hotel-title flex-column">
+                                <h2 class="title-Community24" style="margin-bottom: 8px;">Mã giảm giá <span
+                                        style="color: #ff3366;">(4)</span></h2>
+                            </div>
+
+                            <div class="lazyload-hotel-grid">
+                                <div class="ticket-grid">
+                                    <div style="width: 490px;">
+                                        <div style="transform: scale(0.7); transform-origin: top left;">
+                                            <svg width="700" height="200" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0" y="0" width="700" height="200" rx="15" ry="15"
+                                                    fill="#fff0f4" stroke="#ff4c84" stroke-width="2" />
+                                                <path d="M 500 20 L 500 180" stroke="#ff4c84" stroke-dasharray="8,8"
+                                                    stroke-width="2" />
+                                                <circle cx="500" cy="0" r="15" fill="#fff0f4" stroke="#ff4c84"
+                                                    stroke-width="2" />
+                                                <circle cx="500" cy="200" r="15" fill="#fff0f4" stroke="#ff4c84"
+                                                    stroke-width="2" />
+                                                <text x="40" y="50" font-size="24" font-weight="bold"
+                                                    fill="#212121">Giảm 8%
+                                                    đơn
+                                                    đặt phòng khách sạn</text>
+                                                <text x="40" y="85" font-size="18" fill="#666">Hạn sử dụng: 01/12 -
+                                                    31/12</text>
+                                                <text x="40" y="110" font-size="18" fill="#666">Nhập mã khi thanh
+                                                    toán</text>
+                                                <text x="40" y="135" font-size="18" fill="#ff4c84">Điều kiện & thể lệ
+                                                    chương
+                                                    trình</text>
+                                                <text x="530" y="80" font-size="20" fill="#333">Nhập mã</text>
+                                                <text x="530" y="110" font-size="26" font-weight="bold"
+                                                    fill="#ff3366">CHOTNAM24</text>
+                                                <a href="#">
+                                                    <rect x="530" y="130" rx="10" ry="10" width="120" height="40"
+                                                        fill="#ff3366" />
+                                                    <text x="560" y="157" font-size="18" font-weight="bold"
+                                                        fill="#ffffff">Nhận
+                                                        mã</text>
+                                                </a>
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div style="width: 490px;">
+                                        <div style="transform: scale(0.7); transform-origin: top left;">
+                                            <svg width="700" height="200" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0" y="0" width="700" height="200" rx="15" ry="15"
+                                                    fill="#fff0f4" stroke="#ff4c84" stroke-width="2" />
+                                                <path d="M 500 20 L 500 180" stroke="#ff4c84" stroke-dasharray="8,8"
+                                                    stroke-width="2" />
+                                                <circle cx="500" cy="0" r="15" fill="#fff0f4" stroke="#ff4c84"
+                                                    stroke-width="2" />
+                                                <circle cx="500" cy="200" r="15" fill="#fff0f4" stroke="#ff4c84"
+                                                    stroke-width="2" />
+                                                <text x="40" y="50" font-size="24" font-weight="bold"
+                                                    fill="#212121">Giảm 8%
+                                                    đơn
+                                                    đặt phòng khách sạn</text>
+                                                <text x="40" y="85" font-size="18" fill="#666">Hạn sử dụng: 01/12 -
+                                                    31/12</text>
+                                                <text x="40" y="110" font-size="18" fill="#666">Nhập mã khi thanh
+                                                    toán</text>
+                                                <text x="40" y="135" font-size="18" fill="#ff4c84">Điều kiện & thể lệ
+                                                    chương
+                                                    trình</text>
+                                                <text x="530" y="80" font-size="20" fill="#333">Nhập mã</text>
+                                                <text x="530" y="110" font-size="26" font-weight="bold"
+                                                    fill="#ff3366">CHOTNAM24</text>
+                                                <a href="#">
+                                                    <rect x="530" y="130" rx="10" ry="10" width="120" height="40"
+                                                        fill="#ff3366" />
+                                                    <text x="560" y="157" font-size="18" font-weight="bold"
+                                                        fill="#ffffff">Nhận
+                                                        mã</text>
+                                                </a>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div style="width: 490px;">
+                                        <div style="transform: scale(0.7); transform-origin: top left;">
+                                            <svg width="700" height="200" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0" y="0" width="700" height="200" rx="15" ry="15"
+                                                    fill="#fff0f4" stroke="#ff4c84" stroke-width="2" />
+                                                <path d="M 500 20 L 500 180" stroke="#ff4c84" stroke-dasharray="8,8"
+                                                    stroke-width="2" />
+                                                <circle cx="500" cy="0" r="15" fill="#fff0f4" stroke="#ff4c84"
+                                                    stroke-width="2" />
+                                                <circle cx="500" cy="200" r="15" fill="#fff0f4" stroke="#ff4c84"
+                                                    stroke-width="2" />
+                                                <text x="40" y="50" font-size="24" font-weight="bold"
+                                                    fill="#212121">Giảm 8%
+                                                    đơn
+                                                    đặt phòng khách sạn</text>
+                                                <text x="40" y="85" font-size="18" fill="#666">Hạn sử dụng: 01/12 -
+                                                    31/12</text>
+                                                <text x="40" y="110" font-size="18" fill="#666">Nhập mã khi thanh
+                                                    toán</text>
+                                                <text x="40" y="135" font-size="18" fill="#ff4c84">Điều kiện & thể lệ
+                                                    chương
+                                                    trình</text>
+                                                <text x="530" y="80" font-size="20" fill="#333">Nhập mã</text>
+                                                <text x="530" y="110" font-size="26" font-weight="bold"
+                                                    fill="#ff3366">CHOTNAM24</text>
+                                                <a href="#">
+                                                    <rect x="530" y="130" rx="10" ry="10" width="120" height="40"
+                                                        fill="#ff3366" />
+                                                    <text x="560" y="157" font-size="18" font-weight="bold"
+                                                        fill="#ffffff">Nhận
+                                                        mã</text>
+                                                </a>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div style="width: 490px;">
+                                        <div style="transform: scale(0.7); transform-origin: top left;">
+                                            <svg width="700" height="200" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0" y="0" width="700" height="200" rx="15" ry="15"
+                                                    fill="#fff0f4" stroke="#ff4c84" stroke-width="2" />
+                                                <path d="M 500 20 L 500 180" stroke="#ff4c84" stroke-dasharray="8,8"
+                                                    stroke-width="2" />
+                                                <circle cx="500" cy="0" r="15" fill="#fff0f4" stroke="#ff4c84"
+                                                    stroke-width="2" />
+                                                <circle cx="500" cy="200" r="15" fill="#fff0f4" stroke="#ff4c84"
+                                                    stroke-width="2" />
+                                                <text x="40" y="50" font-size="24" font-weight="bold"
+                                                    fill="#212121">Giảm 8%
+                                                    đơn
+                                                    đặt phòng khách sạn</text>
+                                                <text x="40" y="85" font-size="18" fill="#666">Hạn sử dụng: 01/12 -
+                                                    31/12</text>
+                                                <text x="40" y="110" font-size="18" fill="#666">Nhập mã khi thanh
+                                                    toán</text>
+                                                <text x="40" y="135" font-size="18" fill="#ff4c84">Điều kiện & thể lệ
+                                                    chương
+                                                    trình</text>
+                                                <text x="530" y="80" font-size="20" fill="#333">Nhập mã</text>
+                                                <text x="530" y="110" font-size="26" font-weight="bold"
+                                                    fill="#ff3366">CHOTNAM24</text>
+                                                <a href="#">
+                                                    <rect x="530" y="130" rx="10" ry="10" width="120" height="40"
+                                                        fill="#ff3366" />
+                                                    <text x="560" y="157" font-size="18" font-weight="bold"
+                                                        fill="#ffffff">Nhận
+                                                        mã</text>
+                                                </a>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hotel-wrapper">
+                    <div class="wrapper-lazyload-hotel title-Community14-body" style="background-color: #fff;">
+                        <div class="lazyload-hotel flex-column">
+                            <div class="lazyload-hotel-title flex-column">
+                                <h2 class="title-Community24" style="margin-bottom: 8px;">Khách sạn theo địa điểm
+                            </div>
+
+
+                            <div class="hotel-location-wrapper">
+                                <a href="#" class="hotel-location-item">
+                                    <img src="image/hochiminh.jpg" alt="Hồ Chí Minh">
+                                    <div class="hotel-location-name">Hồ Chí Minh</div>
+                                    <div class="hotel-location-count">10 khách sạn</div>
+                                </a>
+
+                                <a href="#" class="hotel-location-item">
+                                    <img src="image/hochiminh.jpg" alt="Hà Nội">
+                                    <div class="hotel-location-name">Hà Nội</div>
+                                    <div class="hotel-location-count">15 khách sạn</div>
+                                </a>
+
+                                <a href="#" class="hotel-location-item">
+                                    <img src="image/hochiminh.jpg" alt="Hà Nội">
+                                    <div class="hotel-location-name">Hà Nội</div>
+                                    <div class="hotel-location-count">15 khách sạn</div>
+                                </a>
+                                <a href="#" class="hotel-location-item">
+                                    <img src="image/hochiminh.jpg" alt="Hà Nội">
+                                    <div class="hotel-location-name">Hà Nội</div>
+                                    <div class="hotel-location-count">15 khách sạn</div>
+                                </a>
+                                <a href="#" class="hotel-location-item">
+                                    <img src="image/hochiminh.jpg" alt="Hà Nội">
+                                    <div class="hotel-location-name">Hà Nội</div>
+                                    <div class="hotel-location-count">15 khách sạn</div>
+                                </a>
+                                <a href="#" class="hotel-location-item">
+                                    <img src="image/hochiminh.jpg" alt="Hà Nội">
+                                    <div class="hotel-location-name">Hà Nội</div>
+                                    <div class="hotel-location-count">15 khách sạn</div>
+                                </a>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hotel-wrapper">
+                    <div class="wrapper-lazyload-hotel title-Community14-body" style="background-color: #fff;">
+                        <div class="lazyload-hotel flex-column">
+                            <div class="lazyload-hotel-title flex-column">
+                                <h2 class="title-Community24" style="margin-bottom: 8px; color: #ff3366;">Voyage Lựa
+                                    chọn</h2>
+                                <span style="color: rgb(74, 85, 104);">Các khách sạn độc quyền trên voyage</span>
+                            </div>
+                            <div class="hotel-list-wrapper">
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hotel-wrapper">
+                    <div class="wrapper-lazyload-hotel title-Community14-body" style="background-color: #fff;">
+                        <div class="lazyload-hotel flex-column">
+                            <div class="lazyload-hotel-title flex-column">
+                                <h2 class="title-Community24" style="margin-bottom: 8px;">Đang thịnh hành</h2>
+                                <span style="color: rgb(74, 85, 104);">Các khách sạn được tìm kiếm & đặt nhiều do Voyage
+                                    đề xuất</span>
+                            </div>
+                            <div class="hotel-list-wrapper">
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hotel-wrapper">
+                    <div class="wrapper-lazyload-hotel title-Community14-body" style="background-color: #fff;">
+                        <div class="lazyload-hotel flex-column">
+                            <div class="lazyload-hotel-title flex-column">
+                                <h2 class="title-Community24" style="margin-bottom: 8px;">Xem gần đây</h2>
+                            </div>
+                            <div class="hotel-list-wrapper">
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="hotel-card">
+                                    <div class="discount-badge">-5%</div>
+                                    <img src="image/dia-diem-du-lich-o-ha-noi-1.jpg" alt="Khách Sạn Lotte Hà Nội" />
+                                    <div class="hotel-content">
+                                        <h3>Khách Sạn Lotte Hà Nội</h3>
+                                        <div class="stars">★★★★★</div>
+                                        <p>Quận Ba Đình</p>
+                                        <p class="rating">Tuyệt Vời (183 đánh giá)</p>
+                                        <div class="price">
+                                            <span class="original">3.375.590 ₫</span>
+                                            <span class="discounted">2.813.217 ₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-widget-tickets" style="position: fixed; top: auto; right: 0; bottom: 0;z-index: 1000;">
+                    <div class="chat-hidden flex-end">
+                        <div class="container-chat-hidden">
+
+                            <div class="item-help-chat flex-center">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="vnt3">
+                                    <path
+                                        d="M18.5455 29.3333H24.6061C26.6146 29.3333 28.2424 27.7055 28.2424 25.697V22.0606"
+                                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    </path>
+                                    <path d="M10.0606 16H4V22.0606C4 23.4 5.08485 24.4848 6.42424 24.4848H10.0606V16Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    </path>
+                                    <path
+                                        d="M28.2424 16H22.1818V24.4848H25.8182C27.1576 24.4848 28.2424 23.4 28.2424 22.0606V16Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    </path>
+                                    <path
+                                        d="M28.2424 16V14.7879C28.2424 8.09334 22.8158 2.66667 16.1212 2.66667C9.42667 2.66667 4 8.09334 4 14.7879V16"
+                                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="hightline-border"></div>
+                            <div class="item-zalo-chat flex-center item-help-chat">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="vnt3">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M22.782 0.166016H27.199C33.2653 0.166016 36.8103 1.05701 39.9572 2.74421C43.1041 4.4314 45.5875 6.89585 47.2557 10.0428C48.9429 13.1897 49.8339 16.7347 49.8339 22.801V27.1991C49.8339 33.2654 48.9429 36.8104 47.2557 39.9573C45.5685 43.1042 43.1041 45.5877 39.9572 47.2559C36.8103 48.9431 33.2653 49.8341 27.199 49.8341H22.8009C16.7346 49.8341 13.1896 48.9431 10.0427 47.2559C6.89583 45.5687 4.41243 43.1042 2.7442 39.9573C1.057 36.8104 0.166016 33.2654 0.166016 27.1991V22.801C0.166016 16.7347 1.057 13.1897 2.7442 10.0428C4.43139 6.89585 6.89583 4.41245 10.0427 2.74421C13.1707 1.05701 16.7346 0.166016 22.782 0.166016Z"
+                                        fill="#0068FF"></path>
+                                    <path opacity="0.12" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M49.8336 26.4736V27.1994C49.8336 33.2657 48.9427 36.8107 47.2555 39.9576C45.5683 43.1045 43.1038 45.5879 39.9569 47.2562C36.81 48.9434 33.265 49.8344 27.1987 49.8344H22.8007C17.8369 49.8344 14.5612 49.2378 11.8104 48.0966L7.27539 43.4267L49.8336 26.4736Z"
+                                        fill="#001A33"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.779 43.5892C10.1019 43.846 13.0061 43.1836 15.0682 42.1825C24.0225 47.1318 38.0197 46.8954 46.4923 41.4732C46.8209 40.9803 47.1279 40.4677 47.4128 39.9363C49.1062 36.7779 50.0004 33.22 50.0004 27.1316V22.7175C50.0004 16.629 49.1062 13.0711 47.4128 9.91273C45.7385 6.75436 43.2461 4.28093 40.0877 2.58758C36.9293 0.894239 33.3714 0 27.283 0H22.8499C17.6644 0 14.2982 0.652754 11.4699 1.89893C11.3153 2.03737 11.1636 2.17818 11.0151 2.32135C2.71734 10.3203 2.08658 27.6593 9.12279 37.0782C9.13064 37.0921 9.13933 37.1061 9.14889 37.1203C10.2334 38.7185 9.18694 41.5154 7.55068 43.1516C7.28431 43.399 7.37944 43.5512 7.779 43.5892Z"
+                                        fill="white"></path>
+                                    <path
+                                        d="M20.5632 17H10.8382V19.0853H17.5869L10.9329 27.3317C10.7244 27.635 10.5728 27.9194 10.5728 28.5639V29.0947H19.748C20.203 29.0947 20.5822 28.7156 20.5822 28.2606V27.1421H13.4922L19.748 19.2938C19.8428 19.1801 20.0134 18.9716 20.0893 18.8768L20.1272 18.8199C20.4874 18.2891 20.5632 17.8341 20.5632 17.2844V17Z"
+                                        fill="#0068FF"></path>
+                                    <path
+                                        d="M32.9416 29.0947H34.3255V17H32.2402V28.3933C32.2402 28.7725 32.5435 29.0947 32.9416 29.0947Z"
+                                        fill="#0068FF"></path>
+                                    <path
+                                        d="M25.814 19.6924C23.1979 19.6924 21.0747 21.8156 21.0747 24.4317C21.0747 27.0478 23.1979 29.171 25.814 29.171C28.4301 29.171 30.5533 27.0478 30.5533 24.4317C30.5723 21.8156 28.4491 19.6924 25.814 19.6924ZM25.814 27.2184C24.2785 27.2184 23.0273 25.9672 23.0273 24.4317C23.0273 22.8962 24.2785 21.645 25.814 21.645C27.3495 21.645 28.6007 22.8962 28.6007 24.4317C28.6007 25.9672 27.3685 27.2184 25.814 27.2184Z"
+                                        fill="#0068FF"></path>
+                                    <path
+                                        d="M40.4867 19.6162C37.8516 19.6162 35.7095 21.7584 35.7095 24.3934C35.7095 27.0285 37.8516 29.1707 40.4867 29.1707C43.1217 29.1707 45.2639 27.0285 45.2639 24.3934C45.2639 21.7584 43.1217 19.6162 40.4867 19.6162ZM40.4867 27.2181C38.9322 27.2181 37.681 25.9669 37.681 24.4124C37.681 22.8579 38.9322 21.6067 40.4867 21.6067C42.0412 21.6067 43.2924 22.8579 43.2924 24.4124C43.2924 25.9669 42.0412 27.2181 40.4867 27.2181Z"
+                                        fill="#0068FF"></path>
+                                    <path
+                                        d="M29.4562 29.0944H30.5747V19.957H28.6221V28.2793C28.6221 28.7153 29.0012 29.0944 29.4562 29.0944Z"
+                                        fill="#0068FF"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="popup-overlay" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; z-index: 9999;">
+  <div id="popup-box" style="background: #fff; padding: 20px 30px; border-radius: 12px; width: 600px; max-width: 90%; position: relative;">
+    <h3 style="font-size: 20px; font-weight: bold;">Điều kiện & thể lệ chương trình</h3>
+    <button onclick="closePopup()" style="position: absolute; top: 10px; right: 15px; font-size: 20px; background: none; border: none; cursor: pointer;">×</button>
+    <div style="margin-top: 10px; font-size: 16px;">
+      <ul style="padding-left: 20px; line-height: 1.6;">
+        <li>Giảm ngay 8% cho đơn phòng khách sạn (mức giảm áp dụng cho giá trị đơn chưa bao gồm thuế phí).</li>
+        <li>Ưu đãi được áp dụng cho một số hạng phòng của khách sạn.</li>
+        <li>Ưu đãi không được áp dụng cùng các chương trình khuyến mãi khác.</li>
+        <li>Mỗi khách hàng chỉ được hưởng ưu đãi 01 lần/chương trình. Chỉ áp dụng cho khách hàng cá nhân.</li>
+        <li>Nếu phát hiện đặt phòng có dấu hiệu lạm dụng, trục lợi ưu đãi, Mytour có quyền từ chối áp dụng.</li>
+        <li>Áp dụng theo chính sách khách sạn.</li>
+        <li>Voyage có quyền thay đổi điều khoản và thể lệ mà không cần thông báo trước. Vui lòng truy cập Mytour.vn để cập nhật chi tiết.</li>
+        <li>Mọi quyết định của Voyage là kết quả cuối cùng.</li>
+        <li><b>***Mọi thắc mắc vui lòng liên hệ 1900 1000.</b></li>
+      </ul>
+    </div>
+    <div style="margin-top: 20px;">
+      <label><input type="checkbox" id="dont-show-again"> Không hiển thị nữa</label>
+    </div>
+  </div>
+</div>
+
+
+
+        </main>
+        <div class="footer-overview" style="margin-bottom: 20px;">
+            <div class="wrapper-overview">
+                <div class="email-discount">
+                    <div class="box-email flex-align">
+                        <div class="box flex-align">
+                            <div class="flex-align">
+                                <div class="" style="margin: 21px 0 21px 24px;">
+                                    <div class="item-email-container">
+                                        <div style="height: 100%;">
+                                            <img src="https://gcs.tripi.vn/tripi-assets/mytour/icons/icon_mail_red.svg"
+                                                alt="" class="item-email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="" style="margin: 19px 0 0 29px;">
+                                    <h4 class="title-Community16">Bạn muốn tiết kiệm tới 50% khi đặt phòng khách sạn, vé
+                                        máy bay?</h4>
+                                    <p class="title-Community14-body">
+                                        Nhập số điện thoại để Mytour có thể gửi đến bạn những chương trình khuyến mại
+                                        mới nhất!
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="from-telephone">
+                                    <form action="" class="telephone flex-align">
+                                        <div class="content-telephone flex-align">
+                                            <input type="text" class="input-telephone" placeholder="Nhập số điện thoại">
+                                        </div>
+                                        <div style="width: fit-content;">
+                                            <button class="btn-register"
+                                                style="margin-left: -5px; white-space: nowrap;">
+                                                <div style="width: 100%;">
+                                                    <div class="flex-center">
+                                                        <div class="flex-align">Đăng ký</div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span>
+                    <img src="./image/LogoVoyage_text-removebg-preview.png" alt="" class="image-logo_top_leff">
+                </span>
+                <div class="container-overview flex">
+                    <div class="overview-grow">
+                        <div class="title-Community14-body vy14" style="font-weight: 600;">Công ty cổ phần du lịch Việt
+                            Nam
+                        </div>
+                        <div class="title-Community14-body vy14">Tổng đài chăm sóc: 0388889385</div>
+                        <div class="title-Community14-body vy14">Email: hel0babyno123@gmail.com</div>
+                        <div class="title-Community14-body vy14">Văn phòng Hà Nội: Tả Thanh Oai, Thanh Trì, Hà Nội, Việt
+                            Nam
+                        </div>
+
+
+                    </div>
+                    <div class="overview-grow">
+                        <div class="title-Community14-body" style="font-weight: 600;">Chính sách & Quy định</div>
+                        <div class="link-security flex-column">
+                            <a href="">
+                                <span class="title-Community12">Điều khoản và điều kiện</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Quy định về thanh toán</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Chính sách bảo mật thông tin</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Quy chế hoạt động</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Chương trình khách hàng thân thiết</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Chương trình đánh giá trải nghiệm khách sạn</span>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="overview-grow">
+                        <div class="title-Community14-body" style="font-weight: 600;">Khách hàng và đối tác</div>
+                        <div class="link-security flex-column">
+                            <a href="">
+                                <span class="title-Community12">Giới thiệu nhận quà</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Hợp tác với chúng tôi</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Đăng nhập HMS</span>
+                            </a>
+                            <a href="">
+                                <span class="title-Community12">Tuyển dụng</span>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        window.addEventListener("load", () => {
+            localStorage.clear();
+        })
+    </script>
+    <script src="./main.js"></script>
+    <script src="./navigation.js"></script>
+    <script src="./slick.js"></script>
+    <script src="./calendar.js"></script>
+
+    <script>
+        const hideUntil = localStorage.getItem('hidePopupUntil');
+        const now = new Date();
+      
+        if (!hideUntil || new Date(hideUntil) < now) {
+          document.getElementById('popup-overlay').style.display = 'flex';
+        }
+      
+        function closePopup() {
+          const dontShow = document.getElementById('dont-show-again').checked;
+          if (dontShow) {
+            const hideUntil = new Date();
+            hideUntil.setHours(hideUntil.getHours() + 1);
+            localStorage.setItem('hidePopupUntil', hideUntil.toISOString());
+          }
+          document.getElementById('popup-overlay').style.display = 'none';
+        }
+      </script>
+      
+</body>
+
+</html>
